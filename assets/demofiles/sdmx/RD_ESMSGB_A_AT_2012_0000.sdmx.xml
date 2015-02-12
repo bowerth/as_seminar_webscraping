@@ -1,0 +1,1335 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<GenericMetadata xsi:schemaLocation="http://www.SDMX.org/resources/SDMXML/schemas/v2_0/genericmetadata SDMXGenericMetadata.xsd http://www.SDMX.org/resources/SDMXML/schemas/v2_0/message SDMXMessage.xsd" xmlns="http://www.SDMX.org/resources/SDMXML/schemas/v2_0/message" xmlns:generic="http://www.SDMX.org/resources/SDMXML/schemas/v2_0/generic" xmlns:compact="http://www.SDMX.org/resources/SDMXML/schemas/v2_0/compact" xmlns:structure="http://www.SDMX.org/resources/SDMXML/schemas/v2_0/structure" xmlns:common="http://www.SDMX.org/resources/SDMXML/schemas/v2_0/common" xmlns:genericmetadata="http://www.SDMX.org/resources/SDMXML/schemas/v2_0/genericmetadata" xmlns:cross="http://www.SDMX.org/resources/SDMXML/schemas/v2_0/cross" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <Header>
+        <ID>RD_ESMSGB_A</ID>
+        <Test>false</Test>
+        <Name>RD_ESMSGB_A_AT_2012_0000</Name>
+        <Prepared>2014-05-27T15:11:31</Prepared>
+        <Sender id="AT1"/>
+        <DataSetID>RD_ESMSGB_A_1414405365144</DataSetID>
+        <DataSetAction>Append</DataSetAction>
+        <Extracted></Extracted>
+        <ReportingBegin>2012-01-01T00:00:00</ReportingBegin>
+        <ReportingEnd>2012-12-31T00:00:00</ReportingEnd>
+    </Header>
+    <genericmetadata:MetadataSet>
+        <genericmetadata:MetadataStructureRef>ESMS_MSD</genericmetadata:MetadataStructureRef>
+        <genericmetadata:MetadataStructureAgencyRef>ESTAT</genericmetadata:MetadataStructureAgencyRef>
+        <genericmetadata:ReportRef>ESMS_REPORT_FULL</genericmetadata:ReportRef>
+        <genericmetadata:AttributeValueSet>
+            <genericmetadata:TargetRef>FULL_ESMS</genericmetadata:TargetRef>
+            <genericmetadata:TargetValues>
+                <genericmetadata:ComponentValue component="TIME_PERIOD" object="TimeDimension">2012-A0</genericmetadata:ComponentValue>
+                <genericmetadata:ComponentValue component="DATA_PROVIDER" object="DataProvider">AT1</genericmetadata:ComponentValue>
+                <genericmetadata:ComponentValue component="DATAFLOW" object="DataFlow">RD_ESMSGB_A</genericmetadata:ComponentValue>
+            </genericmetadata:TargetValues>
+            <genericmetadata:ReportedAttribute conceptID="CONTACT">
+                <genericmetadata:Value>&lt;div class="mceNonEditable isCSTTemplate" style="width: 0px; height: 0px; overflow: hidden;"&gt;&amp;nbsp;&lt;/div&gt;
+&lt;p&gt;&lt;em&gt;National organisations responsible for the compilation and transmission of GBAORD statistics to Eurostat and OECD. Where more than one organisation is responsible, information is presented separately for each one.&lt;/em&gt;&lt;/p&gt;</genericmetadata:Value>
+                <genericmetadata:ReportedAttribute conceptID="CONTACT_ORGANISATION">
+                    <genericmetadata:Value>&lt;div class="mceNonEditable isCSTTemplate" style="width: 0px; height: 0px; overflow: hidden;"&gt;&amp;nbsp;&lt;/div&gt;
+&lt;table style="width: 100%; border: #000000 1px solid;" cellspacing="0"&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td style="background-color: #ffffa0; border: #000000 1px solid;"&gt;Statistics Austria&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;</genericmetadata:Value>
+                </genericmetadata:ReportedAttribute>
+                <genericmetadata:ReportedAttribute conceptID="ORGANISATION_UNIT">
+                    <genericmetadata:Value>&lt;div class="mceNonEditable isCSTTemplate" style="width: 0px; height: 0px; overflow: hidden;"&gt;&amp;nbsp;&lt;/div&gt;
+&lt;table style="width: 100%; border: #000000 1px solid;" cellspacing="0"&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td style="background-color: #ffffa0; border: #000000 1px solid;"&gt;Directorate Population Statistics&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;</genericmetadata:Value>
+                </genericmetadata:ReportedAttribute>
+                <genericmetadata:ReportedAttribute conceptID="CONTACT_NAME">
+                    <genericmetadata:Value>Restricted for publication</genericmetadata:Value>
+                </genericmetadata:ReportedAttribute>
+                <genericmetadata:ReportedAttribute conceptID="CONTACT_FUNCT">
+                    <genericmetadata:Value>Restricted for publication</genericmetadata:Value>
+                </genericmetadata:ReportedAttribute>
+                <genericmetadata:ReportedAttribute conceptID="CONTACT_MAIL">
+                    <genericmetadata:Value>&lt;div class="mceNonEditable isCSTTemplate" style="width: 0px; height: 0px; overflow: hidden;"&gt;&amp;nbsp;&lt;/div&gt;
+&lt;table style="width: 100%; border: #000000 1px solid;" cellspacing="0"&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td style="background-color: #ffffa0; border: #000000 1px solid;"&gt;Gerhard Wallner&lt;br /&gt;STATISTICS AUSTRIA&lt;br /&gt;Directorate Population Statistics&lt;br /&gt;Head of Science, Technology, Education Statistics Unit&lt;br /&gt;Guglgasse 13&lt;br /&gt;1110 Wien&lt;br /&gt;AUSTRIA&lt;br /&gt;email: gerhard.wallner@statistik.gv.at&lt;br /&gt;Tel +43 1 71128 7200&lt;br /&gt;Fax +43 1 71128 7680&lt;br /&gt;&lt;br /&gt;Andreas Schiefer&lt;br /&gt;STATISTICS AUSTRIA&lt;br /&gt;Directorate Population Statistics&lt;br /&gt;Science, Technology, Education Statistics&lt;br /&gt;Guglgasse 13&lt;br /&gt;1110 Wien&lt;br /&gt;AUSTRIA&lt;br /&gt;email: andreas.schiefer@statistik.gv.at&lt;br /&gt;Tel +43 1 71128 7162&lt;br /&gt;Fax +43 1 71128 7680&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;</genericmetadata:Value>
+                </genericmetadata:ReportedAttribute>
+                <genericmetadata:ReportedAttribute conceptID="CONTACT_EMAIL">
+                    <genericmetadata:Value>Restricted for publication</genericmetadata:Value>
+                </genericmetadata:ReportedAttribute>
+                <genericmetadata:ReportedAttribute conceptID="CONTACT_PHONE">
+                    <genericmetadata:Value>Restricted for publication</genericmetadata:Value>
+                </genericmetadata:ReportedAttribute>
+                <genericmetadata:ReportedAttribute conceptID="CONTACT_FAX">
+                    <genericmetadata:Value>Restricted for publication</genericmetadata:Value>
+                </genericmetadata:ReportedAttribute>
+            </genericmetadata:ReportedAttribute>
+            <genericmetadata:ReportedAttribute conceptID="META_UPDATE">
+                <genericmetadata:Value>21/01/2014</genericmetadata:Value>
+                <genericmetadata:ReportedAttribute conceptID="META_CERTIFIED">
+                    <genericmetadata:Value>28/02/2013</genericmetadata:Value>
+                </genericmetadata:ReportedAttribute>
+                <genericmetadata:ReportedAttribute conceptID="META_POSTED">
+                    <genericmetadata:Value>28/02/2014</genericmetadata:Value>
+                </genericmetadata:ReportedAttribute>
+                <genericmetadata:ReportedAttribute conceptID="META_LAST_UPDATE">
+                    <genericmetadata:Value>28/02/2014</genericmetadata:Value>
+                </genericmetadata:ReportedAttribute>
+            </genericmetadata:ReportedAttribute>
+            <genericmetadata:ReportedAttribute conceptID="STAT_PRES">
+                <genericmetadata:Value>&lt;div class="mceNonEditable isCSTTemplate" style="width: 0px; height: 0px; overflow: hidden;"&gt;&amp;nbsp;&lt;/div&gt;
+&lt;p&gt;-&lt;/p&gt;</genericmetadata:Value>
+                <genericmetadata:ReportedAttribute conceptID="DATA_DESCR">
+                    <genericmetadata:Value>&lt;div class="mceNonEditable isCSTTemplate" style="width: 0px; height: 0px; overflow: hidden;"&gt;&amp;nbsp;&lt;/div&gt;
+&lt;p&gt;[&lt;em&gt;Not requested&lt;/em&gt;]&lt;/p&gt;</genericmetadata:Value>
+                </genericmetadata:ReportedAttribute>
+                <genericmetadata:ReportedAttribute conceptID="CLASS_SYSTEM">
+                    <genericmetadata:Value>&lt;div class="mceNonEditable isCSTTemplate" style="width: 0px; height: 0px; overflow: hidden;"&gt;&amp;nbsp;&lt;/div&gt;
+&lt;p&gt;&lt;strong&gt;Distribution by socio-economic objectives (SEO)&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;3.2.1. Initial classification&lt;/strong&gt;&lt;/p&gt;
+&lt;table style="width: 100%; border: #000000 1px solid;" cellspacing="0"&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;td class="mceNonEditable" style="border: #000000 1px solid;"&gt;National nomenclature used&lt;br /&gt;&lt;em&gt;[Specify the national nomenclature of SEO used. Provide reference to it or provide the nomenclature in Annex, using the "Annexes" button below and write here the name of the annexed file]&lt;/em&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td style="background-color: #ffffa0; border: #000000 1px solid;"&gt;
+&lt;p&gt;Data are initially distributed according to the Austrian national classification by socio-economic objectives.&lt;/p&gt;
+&lt;p&gt;Nabs 2007 National Nomenclature.pdf&lt;/p&gt;
+&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;p&gt;&amp;nbsp;&lt;/p&gt;
+&lt;table style="width: 100%; border: #000000 1px solid;" cellspacing="0"&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;td class="mceNonEditable" style="border: #000000 1px solid;"&gt;Correspondence table with NABS&lt;br /&gt;&lt;em&gt;[Provide reference to the table or provide the table in Annex, using the "Annexes" button below and write here the name of the annexed file&lt;/em&gt;]&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td style="background-color: #ffffa0; border: #000000 1px solid;"&gt;Correspondence with NABS exists, but only at the 1-digit-(chapter-) NABS level.&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;p&gt;&amp;nbsp;&lt;/p&gt;
+&lt;table style="width: 100%; border: #000000 1px solid;" cellspacing="0"&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;td class="mceNonEditable" style="border: #000000 1px solid;"&gt;Problems with NABS correspondence&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td style="background-color: #ffffa0; border: #000000 1px solid;"&gt;No serious problems.&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;p&gt;&amp;nbsp;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;3.2.2. NABS classification&lt;/strong&gt;&lt;/p&gt;
+&lt;table style="width: 100%; border: #000000 1px solid;" cellspacing="0"&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;td class="mceNonEditable" style="border: #000000 1px solid;"&gt;Deviations from NABS&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td style="background-color: #ffffa0; border: #000000 1px solid;"&gt;No deviations.&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;p&gt;&amp;nbsp;&lt;/p&gt;
+&lt;table style="width: 100%; border: #000000 1px solid;" cellspacing="0"&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;td class="mceNonEditable" style="border: #000000 1px solid;"&gt;Problems in identifying / separating NABS chapters and sub-chapters&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td style="background-color: #ffffa0; border: #000000 1px solid;"&gt;
+&lt;p&gt;As Austrian GBOARD data are a result of a budgetary&amp;nbsp;analysis, the main problem lies in the structure of the Federal Budget&amp;nbsp;and which is reflected in budget chapters and budget items representing in most cases institutional units and generally not programmes or projects.&lt;/p&gt;
+&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;p&gt;&amp;nbsp;&lt;/p&gt;
+&lt;table style="width: 100%; border: #000000 1px solid;" cellspacing="0"&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;td class="mceNonEditable" style="border: #000000 1px solid;"&gt;Ability to distribute Non-oriented research and GUF by field of science&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td style="background-color: #ffffa0; border: #000000 1px solid;"&gt;Non-oriented research and GUF available by FOS, though not completely in the breakdowns requested by NABS (10.0 &amp;ndash; 10.9; 11.0 &amp;ndash; 11.9) but broken down by the six major FOS: Natural sciences, engineering, medical sciences, agricultural sciences, social sciences and humanities.&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;</genericmetadata:Value>
+                </genericmetadata:ReportedAttribute>
+                <genericmetadata:ReportedAttribute conceptID="COVERAGE_SECTOR">
+                    <genericmetadata:Value>&lt;div class="mceNonEditable isCSTTemplate" style="width: 0px; height: 0px; overflow: hidden;"&gt;&amp;nbsp;&lt;/div&gt;
+&lt;p&gt;&lt;strong&gt;3.3.1. General coverage&lt;/strong&gt;&lt;/p&gt;
+&lt;table style="width: 100%; border: #000000 1px solid;" cellspacing="0"&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;td class="mceNonEditable" style="border: #000000 1px solid;" width="50%"&gt;Definition of R&amp;amp;D (FM &amp;sect; 63-64)&lt;br /&gt;&lt;em&gt;Frascati manual? (Y/N)&lt;br /&gt;[If No, please provide definition used]&lt;/em&gt;&lt;/td&gt;
+&lt;td class="mceNonEditable" style="border: #000000 1px solid;"&gt;Comments&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td style="background-color: #ffffa0; border: #000000 1px solid;" width="50%"&gt;Frascati Manual definition of R&amp;amp;D.&lt;/td&gt;
+&lt;td style="background-color: #ffffa0; border: #000000 1px solid;"&gt;&amp;nbsp;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;p&gt;&amp;nbsp;&lt;/p&gt;
+&lt;table style="width: 100%; border: #000000 1px solid;" cellspacing="0"&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;td class="mceNonEditable" style="border: #000000 1px solid;"&gt;Do GBAORD statistics cover R&amp;amp;D or S&amp;amp;T in general?&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td style="background-color: #ffffa0; border: #000000 1px solid;"&gt;R&amp;amp;D&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;p&gt;&amp;nbsp;&lt;/p&gt;
+&lt;table style="width: 100%; border: #000000 1px solid;" cellspacing="0"&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;td class="mceNonEditable" style="border: #000000 1px solid;"&gt;Fields of science covered&lt;br /&gt;&lt;em&gt;(FM &amp;sect; 481)&lt;/em&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td style="background-color: #ffffa0; border: #000000 1px solid;"&gt;All fields of science covered: NSE+SSH.&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;p&gt;&lt;strong&gt;&amp;nbsp;&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;3.3.2. Definition and coverage of government&lt;/strong&gt;&lt;br /&gt;&lt;em&gt;(FM &amp;sect; 484)&lt;/em&gt;&lt;/p&gt;
+&lt;table style="width: 100%; border: #000000 1px solid;" cellspacing="0"&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;td class="mceNonEditable" style="border: #000000 1px solid;" width="10%"&gt;&amp;nbsp;&lt;/td&gt;
+&lt;td class="mceNonEditable" style="border: #000000 1px solid;" width="40%"&gt;Definition &lt;br /&gt;[Institutions assigned to each level, which are covered by GBAORD]&lt;/td&gt;
+&lt;td class="mceNonEditable" style="border: #000000 1px solid;" width="10%"&gt;Included in GBAORD? (Y/N)&lt;/td&gt;
+&lt;td class="mceNonEditable" style="border: #000000 1px solid;" width="40%"&gt;Comments&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td style="border: #000000 1px solid;" width="10%"&gt;Central government&lt;/td&gt;
+&lt;td style="background-color: #ffffa0; border: #000000 1px solid;" width="40%"&gt;Federal government (&amp;ldquo;Bund&amp;rdquo;) is regarded as central government, in conformity with SNA rules.&lt;/td&gt;
+&lt;td style="background-color: #ffffa0; border: #000000 1px solid;" width="10%"&gt;Included.&lt;/td&gt;
+&lt;td style="background-color: #ffffa0; border: #000000 1px solid;" width="40%"&gt;&amp;nbsp;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style="border: #000000 1px solid;" width="10%"&gt;Provincial / state government&lt;/td&gt;
+&lt;td style="background-color: #ffffa0; border: #000000 1px solid;" width="40%"&gt;not applicable&lt;/td&gt;
+&lt;td style="background-color: #ffffa0; border: #000000 1px solid;" width="10%"&gt;Excluded.&lt;/td&gt;
+&lt;td style="background-color: #ffffa0; border: #000000 1px solid;" width="40%"&gt;In all other SNA based analyses and particularly in the analysis of the sectors of finance within the framework of the performer-based R&amp;amp;D surveys provincial and local government are included and clearly separated.&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style="border: #000000 1px solid;" width="10%"&gt;Local government&lt;/td&gt;
+&lt;td style="background-color: #ffffa0; border: #000000 1px solid;" width="40%"&gt;not applicable&lt;/td&gt;
+&lt;td style="background-color: #ffffa0; border: #000000 1px solid;" width="10%"&gt;Excluded.&lt;/td&gt;
+&lt;td style="background-color: #ffffa0; border: #000000 1px solid;" width="40%"&gt;In all other SNA based analyses and particularly in the analysis of the sectors of finance within the framework of the performer-based R&amp;amp;D surveys provincial and local government are included and clearly separated. However, contributions from local governments are very small.&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;p&gt;&amp;nbsp;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;3.3.3. Government budget appropriations and outlays&lt;/strong&gt;&lt;br /&gt;&lt;em&gt;The net principle is recommended by the FM (&amp;sect; 488, 489-490) for the coverage of government budget appropriations and outlays. Information is requested on deviations from that principle and other issues related to government funds and expenditures.&lt;/em&gt;&lt;/p&gt;
+&lt;table style="width: 100%; border: #000000 1px solid;" cellspacing="0"&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;td class="mceNonEditable" style="border: #000000 1px solid;"&gt;Definition of the government funds included in GBAORD statistics&lt;br /&gt;&lt;em&gt;(FM &amp;sect; 487)&lt;/em&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td style="background-color: #ffffa0; border: #000000 1px solid;"&gt;GBAORD includes all outlays to be met from taxation (in conformity with the FM).&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;p&gt;&amp;nbsp;&lt;/p&gt;
+&lt;table style="width: 100%; border: #000000 1px solid;" cellspacing="0"&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;td class="mceNonEditable" style="border: #000000 1px solid;"&gt;Is the net principle followed?&lt;br /&gt;&lt;em&gt;(FM &amp;sect; 489)&lt;/em&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td style="background-color: #ffffa0; border: #000000 1px solid;"&gt;Corresponding revenue is excluded.&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;p&gt;&amp;nbsp;&lt;/p&gt;
+&lt;table style="width: 100%; border: #000000 1px solid;" cellspacing="0"&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;td class="mceNonEditable" style="border: #000000 1px solid;"&gt;Are EU/other funds included?&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td style="background-color: #ffffa0; border: #000000 1px solid;"&gt;EU funds are not included.&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;p&gt;&amp;nbsp;&lt;/p&gt;
+&lt;table style="width: 100%; border: #000000 1px solid;" cellspacing="0"&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;td class="mceNonEditable" style="border: #000000 1px solid;"&gt;Are extra budgetary funds included?&lt;br /&gt;&lt;em&gt;(FM &amp;sect; 488, 491). National specificities, e.g. only resources from State budget are included. Distinction between different types of funds, e.g. basic and other government funds.&lt;/em&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td style="background-color: #ffffa0; border: #000000 1px solid;"&gt;Other government funds are not included.&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;p&gt;&amp;nbsp;&lt;/p&gt;
+&lt;table style="width: 100%; border: #000000 1px solid;" cellspacing="0"&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;td class="mceNonEditable" style="border: #000000 1px solid;"&gt;Please specify the treatment of loans&lt;br /&gt;&lt;em&gt;(FM &amp;sect; 493). Distinction between non-repayable and repayable subsidies. Mode of distinction, e.g. budgetary codes.&lt;/em&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td style="background-color: #ffffa0; border: #000000 1px solid;"&gt;Loans are not included in the GBAORD data.&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;p&gt;&amp;nbsp;&lt;/p&gt;
+&lt;table style="width: 100%; border: #000000 1px solid;" cellspacing="0"&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;td class="mceNonEditable" style="border: #000000 1px solid;"&gt;Please specify the treatment of indirect funding, tax rebates, etc.&lt;br /&gt;&lt;em&gt;(FM &amp;sect; 493)&lt;/em&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td style="background-color: #ffffa0; border: #000000 1px solid;"&gt;Indirect funding (tax rebates, "research premium" etc.) is not included in the GBAORD data.&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;p&gt;&amp;nbsp;&lt;/p&gt;
+&lt;table style="width: 100%; border: #000000 1px solid;" cellspacing="0"&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;td class="mceNonEditable" style="border: #000000 1px solid;"&gt;Is VAT included in GBAORD data?&lt;br /&gt;&lt;em&gt;National specificities and exceptions, e.g. non-inclusion for firms who receive re-funds of VAT&lt;/em&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td style="background-color: #ffffa0; border: #000000 1px solid;"&gt;VAT is not included in the GBAORD data.&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;p&gt;&amp;nbsp;&lt;/p&gt;
+&lt;table style="width: 100%; border: #000000 1px solid;" cellspacing="0"&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;td class="mceNonEditable" style="border: #000000 1px solid;"&gt;Are both current and capital expenditure included?&lt;br /&gt;&lt;em&gt;(FM &amp;sect; 494)&lt;/em&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td style="background-color: #ffffa0; border: #000000 1px solid;"&gt;Both current and capital expenditure are included in GBAORD.&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;p&gt;&amp;nbsp;&lt;/p&gt;
+&lt;table style="width: 100%; border: #000000 1px solid;" cellspacing="0"&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;td class="mceNonEditable" style="border: #000000 1px solid;"&gt;Please specify the treatment of GBAORD going to R&amp;amp;D abroad.&lt;br /&gt;&lt;em&gt;(FM &amp;sect; 496). Contributions to international R&amp;amp;D programmes or organisations. If applicable, provide list with programmes&amp;rsquo; titles or organisations&amp;rsquo; names.&lt;/em&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td style="background-color: #ffffa0; border: #000000 1px solid;"&gt;GBAORD includes government-financed R&amp;amp;D performed abroad, but only contributions to international R&amp;amp;D programmes or organisations. (e.g. , CERN, ESA, ESO, WHO, OECD, IIASA, IAEO, UNESCO, FAO, ITA, IIF etc) The Federal budget appropriations and actual outlays devoted to R&amp;amp;D programmes performed abroad and to international organisations engaged in R&amp;amp;D activities are listed and summed up in Part A of the so-called &amp;ldquo;Federal R&amp;amp;D Budget&amp;rdquo;, which formally is Annex T of the Federal Finance Act.&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;</genericmetadata:Value>
+                </genericmetadata:ReportedAttribute>
+                <genericmetadata:ReportedAttribute conceptID="STAT_CONC_DEF">
+                    <genericmetadata:Value>&lt;div class="mceNonEditable isCSTTemplate" style="width: 0px; height: 0px; overflow: hidden;"&gt;&amp;nbsp;&lt;/div&gt;
+&lt;p&gt;[&lt;em&gt;Not requested&lt;/em&gt;]&lt;/p&gt;</genericmetadata:Value>
+                </genericmetadata:ReportedAttribute>
+                <genericmetadata:ReportedAttribute conceptID="STAT_UNIT">
+                    <genericmetadata:Value>&lt;div class="mceNonEditable isCSTTemplate" style="width: 0px; height: 0px; overflow: hidden;"&gt;&amp;nbsp;&lt;/div&gt;
+&lt;p&gt;[&lt;em&gt;Not requested&lt;/em&gt;]&lt;/p&gt;</genericmetadata:Value>
+                </genericmetadata:ReportedAttribute>
+                <genericmetadata:ReportedAttribute conceptID="STAT_POP">
+                    <genericmetadata:Value>&lt;div class="mceNonEditable isCSTTemplate" style="width: 0px; height: 0px; overflow: hidden;"&gt;&amp;nbsp;&lt;/div&gt;
+&lt;p&gt;[&lt;em&gt;Not requested&lt;/em&gt;]&lt;/p&gt;</genericmetadata:Value>
+                </genericmetadata:ReportedAttribute>
+                <genericmetadata:ReportedAttribute conceptID="REF_AREA">
+                    <genericmetadata:Value>&lt;div class="mceNonEditable isCSTTemplate" style="width: 0px; height: 0px; overflow: hidden;"&gt;&amp;nbsp;&lt;/div&gt;
+&lt;p&gt;[&lt;em&gt;Not requested&lt;/em&gt;]&lt;/p&gt;</genericmetadata:Value>
+                </genericmetadata:ReportedAttribute>
+                <genericmetadata:ReportedAttribute conceptID="COVERAGE_TIME">
+                    <genericmetadata:Value>&lt;div class="mceNonEditable isCSTTemplate" style="width: 0px; height: 0px; overflow: hidden;"&gt;&amp;nbsp;&lt;/div&gt;
+&lt;p&gt;[&lt;em&gt;Not requested&lt;/em&gt;]&lt;/p&gt;</genericmetadata:Value>
+                </genericmetadata:ReportedAttribute>
+                <genericmetadata:ReportedAttribute conceptID="BASE_PER">
+                    <genericmetadata:Value>&lt;div class="mceNonEditable isCSTTemplate" style="width: 0px; height: 0px; overflow: hidden;"&gt;&amp;nbsp;&lt;/div&gt;
+&lt;p&gt;[&lt;em&gt;Not requested&lt;/em&gt;]&lt;/p&gt;</genericmetadata:Value>
+                </genericmetadata:ReportedAttribute>
+            </genericmetadata:ReportedAttribute>
+            <genericmetadata:ReportedAttribute conceptID="UNIT_MEASURE">
+                <genericmetadata:Value>&lt;div class="mceNonEditable isCSTTemplate" style="width: 0px; height: 0px; overflow: hidden;"&gt;&amp;nbsp;&lt;/div&gt;
+&lt;p&gt;[&lt;em&gt;Not requested&lt;/em&gt;]&lt;/p&gt;</genericmetadata:Value>
+            </genericmetadata:ReportedAttribute>
+            <genericmetadata:ReportedAttribute conceptID="REF_PERIOD">
+                <genericmetadata:Value>&lt;div class="mceNonEditable isCSTTemplate" style="width: 0px; height: 0px; overflow: hidden;"&gt;&amp;nbsp;&lt;/div&gt;
+&lt;p&gt;Nature of reference period&lt;/p&gt;
+&lt;table style="width: 100%; border: #000000 1px solid;" cellspacing="0"&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;td class="mceNonEditable" style="border: #000000 1px solid;" width="20%"&gt;&amp;nbsp;&lt;/td&gt;
+&lt;td class="mceNonEditable" style="border: #000000 1px solid;" width="40%"&gt;Calendar year&lt;/td&gt;
+&lt;td class="mceNonEditable" style="border: #000000 1px solid;" width="40%"&gt;Fiscal year&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td style="border: #000000 1px solid;" width="20%"&gt;Reference period &lt;br /&gt;Please specify start-end months for fiscal year only&lt;/td&gt;
+&lt;td style="background-color: #ffffa0; border: #000000 1px solid;" width="40%"&gt;calendar year = fiscal year&lt;/td&gt;
+&lt;td style="background-color: #ffffa0; border: #000000 1px solid;" width="40%"&gt;&amp;nbsp;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style="border: #000000 1px solid;" width="20%"&gt;Calendar year of attribution of fiscal year (T or T+1?)&lt;/td&gt;
+&lt;td style="background-color: #ffffa0; border: #000000 1px solid;" width="40%"&gt;&amp;nbsp;&lt;/td&gt;
+&lt;td style="background-color: #ffffa0; border: #000000 1px solid;" width="40%"&gt;&amp;nbsp;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;</genericmetadata:Value>
+            </genericmetadata:ReportedAttribute>
+            <genericmetadata:ReportedAttribute conceptID="INST_MANDATE">
+                <genericmetadata:Value>&lt;div class="mceNonEditable isCSTTemplate" style="width: 0px; height: 0px; overflow: hidden;"&gt;&amp;nbsp;&lt;/div&gt;
+&lt;p&gt;[&lt;em&gt;Not requested&lt;/em&gt;]&lt;/p&gt;
+&lt;div class="mceNonEditable isCSTTemplate" style="width: 0px; height: 0px; overflow: hidden;"&gt;&amp;nbsp;&lt;/div&gt;</genericmetadata:Value>
+                <genericmetadata:ReportedAttribute conceptID="INST_MAN_LA_OA">
+                    <genericmetadata:Value>&lt;div class="mceNonEditable isCSTTemplate" style="width: 0px; height: 0px; overflow: hidden;"&gt;&amp;nbsp;&lt;/div&gt;
+&lt;p&gt;[&lt;em&gt;Not requested&lt;/em&gt;]&lt;/p&gt;
+&lt;div class="mceNonEditable isCSTTemplate" style="width: 0px; height: 0px; overflow: hidden;"&gt;&amp;nbsp;&lt;/div&gt;</genericmetadata:Value>
+                </genericmetadata:ReportedAttribute>
+                <genericmetadata:ReportedAttribute conceptID="INST_MAN_SHAR">
+                    <genericmetadata:Value>&lt;div class="mceNonEditable isCSTTemplate" style="width: 0px; height: 0px; overflow: hidden;"&gt;&amp;nbsp;&lt;/div&gt;
+&lt;p&gt;[&lt;em&gt;Not requested&lt;/em&gt;]&lt;/p&gt;
+&lt;div class="mceNonEditable isCSTTemplate" style="width: 0px; height: 0px; overflow: hidden;"&gt;&amp;nbsp;&lt;/div&gt;</genericmetadata:Value>
+                </genericmetadata:ReportedAttribute>
+            </genericmetadata:ReportedAttribute>
+            <genericmetadata:ReportedAttribute conceptID="CONF">
+                <genericmetadata:Value>&lt;div class="mceNonEditable isCSTTemplate" style="width: 0px; height: 0px; overflow: hidden;"&gt;&amp;nbsp;&lt;/div&gt;
+&lt;p&gt;-&lt;/p&gt;
+&lt;div class="mceNonEditable isCSTTemplate" style="width: 0px; height: 0px; overflow: hidden;"&gt;&amp;nbsp;&lt;/div&gt;</genericmetadata:Value>
+                <genericmetadata:ReportedAttribute conceptID="CONF_POLICY">
+                    <genericmetadata:Value>&lt;div class="mceNonEditable isCSTTemplate" style="width: 0px; height: 0px; overflow: hidden;"&gt;&amp;nbsp;&lt;/div&gt;
+&lt;p&gt;[&lt;em&gt;Not requested&lt;/em&gt;]&lt;/p&gt;
+&lt;div class="mceNonEditable isCSTTemplate" style="width: 0px; height: 0px; overflow: hidden;"&gt;&amp;nbsp;&lt;/div&gt;</genericmetadata:Value>
+                </genericmetadata:ReportedAttribute>
+                <genericmetadata:ReportedAttribute conceptID="CONF_DATA_TR">
+                    <genericmetadata:Value>&lt;div class="mceNonEditable isCSTTemplate" style="width: 0px; height: 0px; overflow: hidden;"&gt;&amp;nbsp;&lt;/div&gt;
+&lt;table style="width: 100%; border: #000000 1px solid;" cellspacing="0"&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;td class="mceNonEditable" style="border: #000000 1px solid;"&gt;Treatment of confidential information&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td style="background-color: #ffffa0; border: #000000 1px solid;"&gt;Does not apply. The relevant background document (Annex T of the Federal Fiscal Act) is publicly available.&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;</genericmetadata:Value>
+                </genericmetadata:ReportedAttribute>
+            </genericmetadata:ReportedAttribute>
+            <genericmetadata:ReportedAttribute conceptID="REL_POLICY">
+                <genericmetadata:Value>&lt;div class="mceNonEditable isCSTTemplate" style="width: 0px; height: 0px; overflow: hidden;"&gt;&amp;nbsp;&lt;/div&gt;
+&lt;p&gt;[&lt;em&gt;Not requested&lt;/em&gt;]&lt;/p&gt;</genericmetadata:Value>
+                <genericmetadata:ReportedAttribute conceptID="REL_CAL_POLICY">
+                    <genericmetadata:Value>&lt;div class="mceNonEditable isCSTTemplate" style="width: 0px; height: 0px; overflow: hidden;"&gt;&amp;nbsp;&lt;/div&gt;
+&lt;p&gt;[&lt;em&gt;Not requested&lt;/em&gt;]&lt;/p&gt;</genericmetadata:Value>
+                </genericmetadata:ReportedAttribute>
+                <genericmetadata:ReportedAttribute conceptID="REL_CAL_ACCESS">
+                    <genericmetadata:Value>&lt;div class="mceNonEditable isCSTTemplate" style="width: 0px; height: 0px; overflow: hidden;"&gt;&amp;nbsp;&lt;/div&gt;
+&lt;p&gt;[&lt;em&gt;Not requested&lt;/em&gt;]&lt;/p&gt;</genericmetadata:Value>
+                </genericmetadata:ReportedAttribute>
+                <genericmetadata:ReportedAttribute conceptID="REL_POL_US_AC">
+                    <genericmetadata:Value>&lt;div class="mceNonEditable isCSTTemplate" style="width: 0px; height: 0px; overflow: hidden;"&gt;&amp;nbsp;&lt;/div&gt;
+&lt;p&gt;[&lt;em&gt;Not requested&lt;/em&gt;]&lt;/p&gt;</genericmetadata:Value>
+                </genericmetadata:ReportedAttribute>
+            </genericmetadata:ReportedAttribute>
+            <genericmetadata:ReportedAttribute conceptID="FREQ_DISS">
+                <genericmetadata:Value>&lt;div class="mceNonEditable isCSTTemplate" style="width: 0px; height: 0px; overflow: hidden;"&gt;&amp;nbsp;&lt;/div&gt;
+&lt;p&gt;[&lt;em&gt;Not requested&lt;/em&gt;]&lt;/p&gt;</genericmetadata:Value>
+            </genericmetadata:ReportedAttribute>
+            <genericmetadata:ReportedAttribute conceptID="DISS_FORMAT">
+                <genericmetadata:Value>&lt;div class="mceNonEditable isCSTTemplate" style="width: 0px; height: 0px; overflow: hidden;"&gt;&amp;nbsp;&lt;/div&gt;
+&lt;p&gt;-&lt;/p&gt;
+&lt;div class="mceNonEditable isCSTTemplate" style="width: 0px; height: 0px; overflow: hidden;"&gt;&amp;nbsp;&lt;/div&gt;</genericmetadata:Value>
+                <genericmetadata:ReportedAttribute conceptID="NEWS_REL">
+                    <genericmetadata:Value>&lt;div class="mceNonEditable isCSTTemplate" style="width: 0px; height: 0px; overflow: hidden;"&gt;&amp;nbsp;&lt;/div&gt;
+&lt;table style="width: 100%; border: #000000 1px solid;" cellspacing="0"&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;td class="mceNonEditable" style="border: #000000 1px solid;"&gt;News release specifications&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td style="background-color: #ffffa0; border: #000000 1px solid;"&gt;&amp;nbsp;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;</genericmetadata:Value>
+                </genericmetadata:ReportedAttribute>
+                <genericmetadata:ReportedAttribute conceptID="PUBLICATIONS">
+                    <genericmetadata:Value>&lt;div class="mceNonEditable isCSTTemplate" style="width: 0px; height: 0px; overflow: hidden;"&gt;&amp;nbsp;&lt;/div&gt;
+&lt;p&gt;National dissemination&lt;/p&gt;
+&lt;table style="width: 100%; border: #000000 1px solid;" cellspacing="0"&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;td class="mceNonEditable" style="border: #000000 1px solid;"&gt;Content&lt;br /&gt;&lt;em&gt;Description of the tables produced and the variables reported in them. Alternatively provide link to official web site where the tables are published &amp;ndash; please provide a brief outline in English if the dissemination language is not EN, FR or DE&lt;/em&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td style="background-color: #ffffa0; border: #000000 1px solid;"&gt;
+&lt;p&gt;1) Austrian Research and Technology Report (annual): Will be published in 2nd quarter 2014:&amp;nbsp;&amp;nbsp;&lt;a href="http://www.bmvit.gv.at/innovation/publikationen/technologieberichte/index.html"&gt;http://www.bmvit.gv.at/innovation/publikationen/technologieberichte/index.html&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;2) Statistical Yearbook&lt;br /&gt;(annual):&lt;a href="http://www.statistik.at/web_de/services/stat_jahrbuch/index.html"&gt;http://www.statistik.at/web_de/services/stat_jahrbuch/index.html&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;3) Website of Statistics Austria: &lt;a href="http://www.statistik.at/web_de/statistiken/forschung_und_innovation/f_e_im_bundesbudget/index.html"&gt;http://www.statistik.at/web_de/statistiken/forschung_und_innovation/f_e_im_bundesbudget/index.html&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&amp;nbsp;&lt;/p&gt;
+&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;p&gt;&amp;nbsp;&lt;/p&gt;
+&lt;table style="width: 100%; border: #000000 1px solid;" cellspacing="0"&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;td class="mceNonEditable" style="border: #000000 1px solid;"&gt;&lt;em&gt;In case of online publication provide the link where it can be found&lt;/em&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td style="background-color: #ffffa0; border: #000000 1px solid;"&gt;
+&lt;p&gt;German: &amp;nbsp;&lt;a href="http://www.statistik.at/web_de/statistiken/forschung_und_innovation/f_e_im_bundesbudget/index.html"&gt;http://www.statistik.at/web_de/statistiken/forschung_und_innovation/f_e_im_bundesbudget/index.html&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;English: &lt;a href="http://www.statistik.at/web_en/statistics/research_and_development_r_d_innovation/government_r_d_budget_analysis/index.html"&gt;http://www.statistik.at/web_en/statistics/research_and_development_r_d_innovation/government_r_d_budget_analysis/index.html&lt;/a&gt;&lt;/p&gt;
+&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;</genericmetadata:Value>
+                </genericmetadata:ReportedAttribute>
+                <genericmetadata:ReportedAttribute conceptID="ONLINE_DB">
+                    <genericmetadata:Value>&lt;div class="mceNonEditable isCSTTemplate" style="width: 0px; height: 0px; overflow: hidden;"&gt;&amp;nbsp;&lt;/div&gt;
+&lt;div class="mceNonEditable isCSTTemplate" style="width: 0px; height: 0px; overflow: hidden;"&gt;&amp;nbsp;&lt;/div&gt;
+&lt;table style="width: 100%; border: #000000 1px solid;" cellspacing="0"&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;td class="mceNonEditable" style="border: #000000 1px solid;"&gt;&lt;em&gt;Provide the link to the online database&lt;/em&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td style="background-color: #ffffa0; border: #000000 1px solid;"&gt;&amp;nbsp;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;</genericmetadata:Value>
+                </genericmetadata:ReportedAttribute>
+                <genericmetadata:ReportedAttribute conceptID="MICRO_DAT_ACC">
+                    <genericmetadata:Value>&lt;div class="mceNonEditable isCSTTemplate" style="width: 0px; height: 0px; overflow: hidden;"&gt;&amp;nbsp;&lt;/div&gt;
+&lt;table style="width: 100%; border: #000000 1px solid;" cellspacing="0"&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;td class="mceNonEditable" style="border: #000000 1px solid;"&gt;Access rights to the information&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td style="background-color: #ffffa0; border: #000000 1px solid;"&gt;Tables freely available to everyone.&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;p&gt;&amp;nbsp;&lt;/p&gt;
+&lt;table style="width: 100%; border: #000000 1px solid;" cellspacing="0"&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;td class="mceNonEditable" style="border: #000000 1px solid;"&gt;Cost of access&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td style="background-color: #ffffa0; border: #000000 1px solid;"&gt;None.&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;</genericmetadata:Value>
+                </genericmetadata:ReportedAttribute>
+                <genericmetadata:ReportedAttribute conceptID="DISS_OTHER">
+                    <genericmetadata:Value>&lt;div class="mceNonEditable isCSTTemplate" style="width: 0px; height: 0px; overflow: hidden;"&gt;&amp;nbsp;&lt;/div&gt;
+&lt;table style="width: 100%; border: #000000 1px solid;" cellspacing="0"&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;td class="mceNonEditable" style="border: #000000 1px solid;"&gt;Any other dissemination format: &lt;em&gt;please specify&lt;/em&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td style="background-color: #ffffa0; border: #000000 1px solid;"&gt;&amp;nbsp;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;</genericmetadata:Value>
+                </genericmetadata:ReportedAttribute>
+            </genericmetadata:ReportedAttribute>
+            <genericmetadata:ReportedAttribute conceptID="ACCESS_DOC">
+                <genericmetadata:Value>&lt;div class="mceNonEditable isCSTTemplate" style="width: 0px; height: 0px; overflow: hidden;"&gt;&amp;nbsp;&lt;/div&gt;
+&lt;p&gt;[&lt;em&gt;Not requested&lt;/em&gt;]&lt;/p&gt;
+&lt;div class="mceNonEditable isCSTTemplate" style="width: 0px; height: 0px; overflow: hidden;"&gt;&amp;nbsp;&lt;/div&gt;</genericmetadata:Value>
+                <genericmetadata:ReportedAttribute conceptID="DOC_METHOD">
+                    <genericmetadata:Value>&lt;div class="mceNonEditable isCSTTemplate" style="width: 0px; height: 0px; overflow: hidden;"&gt;&amp;nbsp;&lt;/div&gt;
+&lt;p&gt;[&lt;em&gt;Not requested&lt;/em&gt;]&lt;/p&gt;
+&lt;div class="mceNonEditable isCSTTemplate" style="width: 0px; height: 0px; overflow: hidden;"&gt;&amp;nbsp;&lt;/div&gt;</genericmetadata:Value>
+                </genericmetadata:ReportedAttribute>
+                <genericmetadata:ReportedAttribute conceptID="QUALITY_DOC">
+                    <genericmetadata:Value>&lt;div class="mceNonEditable isCSTTemplate" style="width: 0px; height: 0px; overflow: hidden;"&gt;&amp;nbsp;&lt;/div&gt;
+&lt;p&gt;[&lt;em&gt;Not requested&lt;/em&gt;, &lt;em&gt;available in the Quality report&lt;/em&gt;]&lt;/p&gt;
+&lt;div class="mceNonEditable isCSTTemplate" style="width: 0px; height: 0px; overflow: hidden;"&gt;&amp;nbsp;&lt;/div&gt;</genericmetadata:Value>
+                </genericmetadata:ReportedAttribute>
+            </genericmetadata:ReportedAttribute>
+            <genericmetadata:ReportedAttribute conceptID="QUALITY_MGMNT">
+                <genericmetadata:Value>&lt;div class="mceNonEditable isCSTTemplate" style="width: 0px; height: 0px; overflow: hidden;"&gt;&amp;nbsp;&lt;/div&gt;
+&lt;p&gt;[&lt;em&gt;Not requested&lt;/em&gt;]&lt;/p&gt;
+&lt;div class="mceNonEditable isCSTTemplate" style="width: 0px; height: 0px; overflow: hidden;"&gt;&amp;nbsp;&lt;/div&gt;</genericmetadata:Value>
+                <genericmetadata:ReportedAttribute conceptID="QUALITY_ASSURE">
+                    <genericmetadata:Value>&lt;div class="mceNonEditable isCSTTemplate" style="width: 0px; height: 0px; overflow: hidden;"&gt;&amp;nbsp;&lt;/div&gt;
+&lt;p&gt;[&lt;em&gt;Not requested&lt;/em&gt;]&lt;/p&gt;
+&lt;div class="mceNonEditable isCSTTemplate" style="width: 0px; height: 0px; overflow: hidden;"&gt;&amp;nbsp;&lt;/div&gt;</genericmetadata:Value>
+                </genericmetadata:ReportedAttribute>
+                <genericmetadata:ReportedAttribute conceptID="QUALITY_ASSMNT">
+                    <genericmetadata:Value>&lt;div class="mceNonEditable isCSTTemplate" style="width: 0px; height: 0px; overflow: hidden;"&gt;&amp;nbsp;&lt;/div&gt;
+&lt;p&gt;[&lt;em&gt;Not requested&lt;/em&gt;, &lt;em&gt;available in the Quality report&lt;/em&gt;]&lt;/p&gt;
+&lt;div class="mceNonEditable isCSTTemplate" style="width: 0px; height: 0px; overflow: hidden;"&gt;&amp;nbsp;&lt;/div&gt;</genericmetadata:Value>
+                </genericmetadata:ReportedAttribute>
+            </genericmetadata:ReportedAttribute>
+            <genericmetadata:ReportedAttribute conceptID="RELEVANCE">
+                <genericmetadata:Value>&lt;div class="mceNonEditable isCSTTemplate" style="width: 0px; height: 0px; overflow: hidden;"&gt;&amp;nbsp;&lt;/div&gt;
+&lt;p&gt;-&lt;/p&gt;
+&lt;div class="mceNonEditable isCSTTemplate" style="width: 0px; height: 0px; overflow: hidden;"&gt;&amp;nbsp;&lt;/div&gt;</genericmetadata:Value>
+                <genericmetadata:ReportedAttribute conceptID="USER_NEEDS">
+                    <genericmetadata:Value>&lt;div class="mceNonEditable isCSTTemplate" style="width: 0px; height: 0px; overflow: hidden;"&gt;&amp;nbsp;&lt;/div&gt;
+&lt;p&gt;[&lt;em&gt;Not requested&lt;/em&gt;, &lt;em&gt;available in the Quality report&lt;/em&gt;]&lt;/p&gt;
+&lt;div class="mceNonEditable isCSTTemplate" style="width: 0px; height: 0px; overflow: hidden;"&gt;&amp;nbsp;&lt;/div&gt;</genericmetadata:Value>
+                </genericmetadata:ReportedAttribute>
+                <genericmetadata:ReportedAttribute conceptID="USER_SAT">
+                    <genericmetadata:Value>&lt;div class="mceNonEditable isCSTTemplate" style="width: 0px; height: 0px; overflow: hidden;"&gt;&amp;nbsp;&lt;/div&gt;
+&lt;p&gt;[&lt;em&gt;Not requested&lt;/em&gt;, &lt;em&gt;available in the Quality report&lt;/em&gt;]&lt;/p&gt;
+&lt;div class="mceNonEditable isCSTTemplate" style="width: 0px; height: 0px; overflow: hidden;"&gt;&amp;nbsp;&lt;/div&gt;</genericmetadata:Value>
+                </genericmetadata:ReportedAttribute>
+                <genericmetadata:ReportedAttribute conceptID="COMPLETENESS">
+                    <genericmetadata:Value>&lt;div class="mceNonEditable isCSTTemplate" style="width: 0px; height: 0px; overflow: hidden;"&gt;&amp;nbsp;&lt;/div&gt;
+&lt;p&gt;&lt;em&gt;The following tables report availability issues of provisional and final GBAORD data. Separately information is provided at NABS chapter and sub-chapter level as well as for special categories such as Biotechnology, Security or any other applicable at country level. The tables contain the following columns: &lt;/em&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;em&gt;Availability: Y (Yes) - if data are available; Specify the year data collection begun. N(No) if no data are available.&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;&lt;em&gt;Frequency: frequency of data collection (e.g. annual or every two years)&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;&lt;em&gt;Gap years: years with missing data&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;&lt;em&gt;Time of compilation: in T+x format: T is assumed to represent the end of reference period. x expresses the number of months after (positive) or before (negative) T when data is compiled.&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;&lt;em&gt;Comments: Add any comments regarding the aforementioned issues (e.g. specificities about particular NABS chapters, etc).&lt;/em&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&amp;nbsp;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;13.3.1. Provisional data&lt;/strong&gt;&lt;/p&gt;
+&lt;table style="width: 100%; border: #000000 1px solid;" cellspacing="0"&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;td class="mceNonEditable" style="border: #000000 1px solid;" width="10%"&gt;&amp;nbsp;&lt;/td&gt;
+&lt;td class="mceNonEditable" style="border: #000000 1px solid;" width="15%"&gt;Availability (Y-start year, N)&lt;/td&gt;
+&lt;td class="mceNonEditable" style="border: #000000 1px solid;" width="15%"&gt;Frequency&lt;/td&gt;
+&lt;td class="mceNonEditable" style="border: #000000 1px solid;" width="15%"&gt;Gap years&lt;/td&gt;
+&lt;td class="mceNonEditable" style="border: #000000 1px solid;" width="15%"&gt;Time of compilation (T=x)&lt;/td&gt;
+&lt;td class="mceNonEditable" style="border: #000000 1px solid;" width="15%"&gt;Comments&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td style="border: #000000 1px solid;" width="10%"&gt;Total GBAORD&lt;/td&gt;
+&lt;td style="background-color: #ffffa0; border: #000000 1px solid;" width="15%"&gt;Y-1975&lt;/td&gt;
+&lt;td style="background-color: #ffffa0; border: #000000 1px solid;" width="15%"&gt;Annual&lt;/td&gt;
+&lt;td style="background-color: #ffffa0; border: #000000 1px solid;" width="15%"&gt;&amp;nbsp;&lt;/td&gt;
+&lt;td style="background-color: #ffffa0; border: #000000 1px solid;" width="15%"&gt;&amp;nbsp;&lt;/td&gt;
+&lt;td style="background-color: #ffffa0; border: #000000 1px solid;" width="15%"&gt;&amp;nbsp;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style="border: #000000 1px solid;" width="10%"&gt;NABS Chapter level&lt;/td&gt;
+&lt;td style="background-color: #ffffa0; border: #000000 1px solid;" width="15%"&gt;Y-1998&lt;/td&gt;
+&lt;td style="background-color: #ffffa0; border: #000000 1px solid;" width="15%"&gt;&amp;nbsp;&lt;/td&gt;
+&lt;td style="background-color: #ffffa0; border: #000000 1px solid;" width="15%"&gt;&amp;nbsp;&lt;/td&gt;
+&lt;td style="background-color: #ffffa0; border: #000000 1px solid;" width="15%"&gt;&amp;nbsp;&lt;/td&gt;
+&lt;td style="background-color: #ffffa0; border: #000000 1px solid;" width="15%"&gt;&amp;nbsp;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style="border: #000000 1px solid;" width="10%"&gt;NABS Sub-chapter level&lt;/td&gt;
+&lt;td style="background-color: #ffffa0; border: #000000 1px solid;" width="15%"&gt;Y-1998&lt;/td&gt;
+&lt;td style="background-color: #ffffa0; border: #000000 1px solid;" width="15%"&gt;Annual&lt;/td&gt;
+&lt;td style="background-color: #ffffa0; border: #000000 1px solid;" width="15%"&gt;&amp;nbsp;&lt;/td&gt;
+&lt;td style="background-color: #ffffa0; border: #000000 1px solid;" width="15%"&gt;&amp;nbsp;&lt;/td&gt;
+&lt;td style="background-color: #ffffa0; border: #000000 1px solid;" width="15%"&gt;&amp;nbsp;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style="border: #000000 1px solid;" width="10%"&gt;Special categories - Biotech&lt;/td&gt;
+&lt;td style="background-color: #ffffa0; border: #000000 1px solid;" width="15%"&gt;No&lt;/td&gt;
+&lt;td style="background-color: #ffffa0; border: #000000 1px solid;" width="15%"&gt;&amp;nbsp;&lt;/td&gt;
+&lt;td style="background-color: #ffffa0; border: #000000 1px solid;" width="15%"&gt;&amp;nbsp;&lt;/td&gt;
+&lt;td style="background-color: #ffffa0; border: #000000 1px solid;" width="15%"&gt;&amp;nbsp;&lt;/td&gt;
+&lt;td style="background-color: #ffffa0; border: #000000 1px solid;" width="15%"&gt;&amp;nbsp;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style="border: #000000 1px solid;" width="10%"&gt;Special categories - Security&lt;/td&gt;
+&lt;td style="background-color: #ffffa0; border: #000000 1px solid;" width="15%"&gt;No&lt;/td&gt;
+&lt;td style="background-color: #ffffa0; border: #000000 1px solid;" width="15%"&gt;&amp;nbsp;&lt;/td&gt;
+&lt;td style="background-color: #ffffa0; border: #000000 1px solid;" width="15%"&gt;&amp;nbsp;&lt;/td&gt;
+&lt;td style="background-color: #ffffa0; border: #000000 1px solid;" width="15%"&gt;&amp;nbsp;&lt;/td&gt;
+&lt;td style="background-color: #ffffa0; border: #000000 1px solid;" width="15%"&gt;&amp;nbsp;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;p&gt;&amp;nbsp;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;13.3.2. Final data&lt;/strong&gt;&lt;/p&gt;
+&lt;table style="width: 100%; border: #000000 1px solid;" cellspacing="0"&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;td class="mceNonEditable" style="border: #000000 1px solid;" width="10%"&gt;&amp;nbsp;&lt;/td&gt;
+&lt;td class="mceNonEditable" style="border: #000000 1px solid;" width="15%"&gt;Availability (Y-start year, N)&lt;/td&gt;
+&lt;td class="mceNonEditable" style="border: #000000 1px solid;" width="15%"&gt;Frequency&lt;/td&gt;
+&lt;td class="mceNonEditable" style="border: #000000 1px solid;" width="15%"&gt;Gap years&lt;/td&gt;
+&lt;td class="mceNonEditable" style="border: #000000 1px solid;" width="15%"&gt;Time of compilation (T=x)&lt;/td&gt;
+&lt;td class="mceNonEditable" style="border: #000000 1px solid;" width="15%"&gt;Comments&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td style="border: #000000 1px solid;" width="10%"&gt;Total GBAORD&lt;/td&gt;
+&lt;td style="background-color: #ffffa0; border: #000000 1px solid;" width="15%"&gt;Y-1975&lt;/td&gt;
+&lt;td style="background-color: #ffffa0; border: #000000 1px solid;" width="15%"&gt;Annual&lt;/td&gt;
+&lt;td style="background-color: #ffffa0; border: #000000 1px solid;" width="15%"&gt;&amp;nbsp;&lt;/td&gt;
+&lt;td style="background-color: #ffffa0; border: #000000 1px solid;" width="15%"&gt;&amp;nbsp;&lt;/td&gt;
+&lt;td style="background-color: #ffffa0; border: #000000 1px solid;" width="15%"&gt;&amp;nbsp;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style="border: #000000 1px solid;" width="10%"&gt;NABS Chapter level&lt;/td&gt;
+&lt;td style="background-color: #ffffa0; border: #000000 1px solid;" width="15%"&gt;&amp;nbsp;&lt;/td&gt;
+&lt;td style="background-color: #ffffa0; border: #000000 1px solid;" width="15%"&gt;&amp;nbsp;&lt;/td&gt;
+&lt;td style="background-color: #ffffa0; border: #000000 1px solid;" width="15%"&gt;&amp;nbsp;&lt;/td&gt;
+&lt;td style="background-color: #ffffa0; border: #000000 1px solid;" width="15%"&gt;&amp;nbsp;&lt;/td&gt;
+&lt;td style="background-color: #ffffa0; border: #000000 1px solid;" width="15%"&gt;&amp;nbsp;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style="border: #000000 1px solid;" width="10%"&gt;NABS Sub-chapter level&lt;/td&gt;
+&lt;td style="background-color: #ffffa0; border: #000000 1px solid;" width="15%"&gt;Y-1998&lt;/td&gt;
+&lt;td style="background-color: #ffffa0; border: #000000 1px solid;" width="15%"&gt;Annual&lt;/td&gt;
+&lt;td style="background-color: #ffffa0; border: #000000 1px solid;" width="15%"&gt;&amp;nbsp;&lt;/td&gt;
+&lt;td style="background-color: #ffffa0; border: #000000 1px solid;" width="15%"&gt;&amp;nbsp;&lt;/td&gt;
+&lt;td style="background-color: #ffffa0; border: #000000 1px solid;" width="15%"&gt;&amp;nbsp;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style="border: #000000 1px solid;" width="10%"&gt;Special categories - Biotech&lt;/td&gt;
+&lt;td style="background-color: #ffffa0; border: #000000 1px solid;" width="15%"&gt;No&lt;/td&gt;
+&lt;td style="background-color: #ffffa0; border: #000000 1px solid;" width="15%"&gt;&amp;nbsp;&lt;/td&gt;
+&lt;td style="background-color: #ffffa0; border: #000000 1px solid;" width="15%"&gt;&amp;nbsp;&lt;/td&gt;
+&lt;td style="background-color: #ffffa0; border: #000000 1px solid;" width="15%"&gt;&amp;nbsp;&lt;/td&gt;
+&lt;td style="background-color: #ffffa0; border: #000000 1px solid;" width="15%"&gt;&amp;nbsp;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style="border: #000000 1px solid;" width="10%"&gt;Special categories - Security&lt;/td&gt;
+&lt;td style="background-color: #ffffa0; border: #000000 1px solid;" width="15%"&gt;No&lt;/td&gt;
+&lt;td style="background-color: #ffffa0; border: #000000 1px solid;" width="15%"&gt;&amp;nbsp;&lt;/td&gt;
+&lt;td style="background-color: #ffffa0; border: #000000 1px solid;" width="15%"&gt;&amp;nbsp;&lt;/td&gt;
+&lt;td style="background-color: #ffffa0; border: #000000 1px solid;" width="15%"&gt;&amp;nbsp;&lt;/td&gt;
+&lt;td style="background-color: #ffffa0; border: #000000 1px solid;" width="15%"&gt;&amp;nbsp;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;p&gt;&amp;nbsp;&lt;/p&gt;
+&lt;p&gt;&amp;nbsp;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;13.3.3. Information on other special categories &lt;/strong&gt;&lt;/p&gt;
+&lt;table style="width: 100%; border: #000000 1px solid;" cellspacing="0"&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;td class="mceNonEditable" style="border: #000000 1px solid;" width="15%"&gt;Special category&lt;/td&gt;
+&lt;td class="mceNonEditable" style="border: #000000 1px solid;" width="10%"&gt;Stage (Provisional (P) / Final (F))&lt;/td&gt;
+&lt;td class="mceNonEditable" style="border: #000000 1px solid;" width="15%"&gt;Availability (Y-start year, N)&lt;/td&gt;
+&lt;td class="mceNonEditable" style="border: #000000 1px solid;" width="15%"&gt;Frequency&lt;/td&gt;
+&lt;td class="mceNonEditable" style="border: #000000 1px solid;" width="15%"&gt;Gap years&lt;/td&gt;
+&lt;td class="mceNonEditable" style="border: #000000 1px solid;" width="15%"&gt;Time of compilation (T=x)&lt;/td&gt;
+&lt;td class="mceNonEditable" style="border: #000000 1px solid;" width="15%"&gt;Comments&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td style="background-color: #ffffa0; border: #000000 1px solid;" width="15%"&gt;GBAORD by type of Ministry&lt;/td&gt;
+&lt;td style="background-color: #ffffa0; border: #000000 1px solid;" width="10%"&gt;P and F&lt;/td&gt;
+&lt;td style="background-color: #ffffa0; border: #000000 1px solid;" width="15%"&gt;&amp;nbsp;&lt;/td&gt;
+&lt;td style="background-color: #ffffa0; border: #000000 1px solid;" width="15%"&gt;Annual&lt;/td&gt;
+&lt;td style="background-color: #ffffa0; border: #000000 1px solid;" width="15%"&gt;&amp;nbsp;&lt;/td&gt;
+&lt;td style="background-color: #ffffa0; border: #000000 1px solid;" width="15%"&gt;
+&lt;p&gt;provisional: t-6&lt;/p&gt;
+&lt;p&gt;final: t+12&amp;nbsp;&lt;/p&gt;
+&lt;/td&gt;
+&lt;td style="background-color: #ffffa0; border: #000000 1px solid;" width="15%"&gt;&amp;nbsp;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style="background-color: #ffffa0; border: #000000 1px solid;" width="15%"&gt;GBAORD by abroad/domestic&lt;/td&gt;
+&lt;td style="background-color: #ffffa0; border: #000000 1px solid;" width="10%"&gt;P and F&amp;nbsp;&lt;/td&gt;
+&lt;td style="background-color: #ffffa0; border: #000000 1px solid;" width="15%"&gt;&amp;nbsp;&lt;/td&gt;
+&lt;td style="background-color: #ffffa0; border: #000000 1px solid;" width="15%"&gt;Annual&lt;/td&gt;
+&lt;td style="background-color: #ffffa0; border: #000000 1px solid;" width="15%"&gt;&amp;nbsp;&lt;/td&gt;
+&lt;td style="background-color: #ffffa0; border: #000000 1px solid;" width="15%"&gt;
+&lt;p&gt;provisional: t-6&lt;/p&gt;
+&lt;p&gt;final: t+12&lt;/p&gt;
+&lt;/td&gt;
+&lt;td style="background-color: #ffffa0; border: #000000 1px solid;" width="15%"&gt;&amp;nbsp;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style="background-color: #ffffa0; border: #000000 1px solid;" width="15%"&gt;GBAORD by institutional/project funding&lt;/td&gt;
+&lt;td style="background-color: #ffffa0; border: #000000 1px solid;" width="10%"&gt;F&amp;nbsp;&lt;/td&gt;
+&lt;td style="background-color: #ffffa0; border: #000000 1px solid;" width="15%"&gt;&amp;nbsp;Y-2011&lt;/td&gt;
+&lt;td style="background-color: #ffffa0; border: #000000 1px solid;" width="15%"&gt;Annual&lt;/td&gt;
+&lt;td style="background-color: #ffffa0; border: #000000 1px solid;" width="15%"&gt;&amp;nbsp;&lt;/td&gt;
+&lt;td style="background-color: #ffffa0; border: #000000 1px solid;" width="15%"&gt;t+14&lt;/td&gt;
+&lt;td style="background-color: #ffffa0; border: #000000 1px solid;" width="15%"&gt;&amp;nbsp;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style="background-color: #ffffa0; border: #000000 1px solid;" width="15%"&gt;&amp;nbsp;&lt;/td&gt;
+&lt;td style="background-color: #ffffa0; border: #000000 1px solid;" width="10%"&gt;&amp;nbsp;&lt;/td&gt;
+&lt;td style="background-color: #ffffa0; border: #000000 1px solid;" width="15%"&gt;&amp;nbsp;&lt;/td&gt;
+&lt;td style="background-color: #ffffa0; border: #000000 1px solid;" width="15%"&gt;&amp;nbsp;&lt;/td&gt;
+&lt;td style="background-color: #ffffa0; border: #000000 1px solid;" width="15%"&gt;&amp;nbsp;&lt;/td&gt;
+&lt;td style="background-color: #ffffa0; border: #000000 1px solid;" width="15%"&gt;&amp;nbsp;&lt;/td&gt;
+&lt;td style="background-color: #ffffa0; border: #000000 1px solid;" width="15%"&gt;&amp;nbsp;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style="background-color: #ffffa0; border: #000000 1px solid;" width="15%"&gt;&amp;nbsp;&lt;/td&gt;
+&lt;td style="background-color: #ffffa0; border: #000000 1px solid;" width="10%"&gt;&amp;nbsp;&lt;/td&gt;
+&lt;td style="background-color: #ffffa0; border: #000000 1px solid;" width="15%"&gt;&amp;nbsp;&lt;/td&gt;
+&lt;td style="background-color: #ffffa0; border: #000000 1px solid;" width="15%"&gt;&amp;nbsp;&lt;/td&gt;
+&lt;td style="background-color: #ffffa0; border: #000000 1px solid;" width="15%"&gt;&amp;nbsp;&lt;/td&gt;
+&lt;td style="background-color: #ffffa0; border: #000000 1px solid;" width="15%"&gt;&amp;nbsp;&lt;/td&gt;
+&lt;td style="background-color: #ffffa0; border: #000000 1px solid;" width="15%"&gt;&amp;nbsp;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style="background-color: #ffffa0; border: #000000 1px solid;" width="15%"&gt;&amp;nbsp;&lt;/td&gt;
+&lt;td style="background-color: #ffffa0; border: #000000 1px solid;" width="10%"&gt;&amp;nbsp;&lt;/td&gt;
+&lt;td style="background-color: #ffffa0; border: #000000 1px solid;" width="15%"&gt;&amp;nbsp;&lt;/td&gt;
+&lt;td style="background-color: #ffffa0; border: #000000 1px solid;" width="15%"&gt;&amp;nbsp;&lt;/td&gt;
+&lt;td style="background-color: #ffffa0; border: #000000 1px solid;" width="15%"&gt;&amp;nbsp;&lt;/td&gt;
+&lt;td style="background-color: #ffffa0; border: #000000 1px solid;" width="15%"&gt;&amp;nbsp;&lt;/td&gt;
+&lt;td style="background-color: #ffffa0; border: #000000 1px solid;" width="15%"&gt;&amp;nbsp;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style="background-color: #ffffa0; border: #000000 1px solid;" width="15%"&gt;&amp;nbsp;&lt;/td&gt;
+&lt;td style="background-color: #ffffa0; border: #000000 1px solid;" width="10%"&gt;&amp;nbsp;&lt;/td&gt;
+&lt;td style="background-color: #ffffa0; border: #000000 1px solid;" width="15%"&gt;&amp;nbsp;&lt;/td&gt;
+&lt;td style="background-color: #ffffa0; border: #000000 1px solid;" width="15%"&gt;&amp;nbsp;&lt;/td&gt;
+&lt;td style="background-color: #ffffa0; border: #000000 1px solid;" width="15%"&gt;&amp;nbsp;&lt;/td&gt;
+&lt;td style="background-color: #ffffa0; border: #000000 1px solid;" width="15%"&gt;&amp;nbsp;&lt;/td&gt;
+&lt;td style="background-color: #ffffa0; border: #000000 1px solid;" width="15%"&gt;&amp;nbsp;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style="background-color: #ffffa0; border: #000000 1px solid;" width="15%"&gt;&amp;nbsp;&lt;/td&gt;
+&lt;td style="background-color: #ffffa0; border: #000000 1px solid;" width="10%"&gt;&amp;nbsp;&lt;/td&gt;
+&lt;td style="background-color: #ffffa0; border: #000000 1px solid;" width="15%"&gt;&amp;nbsp;&lt;/td&gt;
+&lt;td style="background-color: #ffffa0; border: #000000 1px solid;" width="15%"&gt;&amp;nbsp;&lt;/td&gt;
+&lt;td style="background-color: #ffffa0; border: #000000 1px solid;" width="15%"&gt;&amp;nbsp;&lt;/td&gt;
+&lt;td style="background-color: #ffffa0; border: #000000 1px solid;" width="15%"&gt;&amp;nbsp;&lt;/td&gt;
+&lt;td style="background-color: #ffffa0; border: #000000 1px solid;" width="15%"&gt;&amp;nbsp;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;p&gt;&amp;nbsp;&lt;/p&gt;
+&lt;p&gt;&amp;nbsp;&lt;/p&gt;</genericmetadata:Value>
+                </genericmetadata:ReportedAttribute>
+            </genericmetadata:ReportedAttribute>
+            <genericmetadata:ReportedAttribute conceptID="ACCURACY">
+                <genericmetadata:Value>&lt;div class="mceNonEditable isCSTTemplate" style="width: 0px; height: 0px; overflow: hidden;"&gt;&amp;nbsp;&lt;/div&gt;
+&lt;p&gt;-&lt;/p&gt;</genericmetadata:Value>
+                <genericmetadata:ReportedAttribute conceptID="ACCURACY_OVERALL">
+                    <genericmetadata:Value>&lt;div class="mceNonEditable isCSTTemplate" style="width: 0px; height: 0px; overflow: hidden;"&gt;&amp;nbsp;&lt;/div&gt;
+&lt;p&gt;[&lt;em&gt;Not requested&lt;/em&gt;, &lt;em&gt;available in the Quality report&lt;/em&gt;]&lt;/p&gt;</genericmetadata:Value>
+                </genericmetadata:ReportedAttribute>
+                <genericmetadata:ReportedAttribute conceptID="SAMPLING_ERR">
+                    <genericmetadata:Value>&lt;div class="mceNonEditable isCSTTemplate" style="width: 0px; height: 0px; overflow: hidden;"&gt;&amp;nbsp;&lt;/div&gt;
+&lt;p&gt;[&lt;em&gt;Not relevant&lt;/em&gt;]&lt;/p&gt;</genericmetadata:Value>
+                </genericmetadata:ReportedAttribute>
+                <genericmetadata:ReportedAttribute conceptID="NONSAMPLING_ERR">
+                    <genericmetadata:Value>&lt;div class="mceNonEditable isCSTTemplate" style="width: 0px; height: 0px; overflow: hidden;"&gt;&amp;nbsp;&lt;/div&gt;
+&lt;p&gt;[&lt;em&gt;Not requested&lt;/em&gt;, &lt;em&gt;available in the Quality report&lt;/em&gt;]&lt;/p&gt;</genericmetadata:Value>
+                </genericmetadata:ReportedAttribute>
+            </genericmetadata:ReportedAttribute>
+            <genericmetadata:ReportedAttribute conceptID="TIMELINESS_PUNCT">
+                <genericmetadata:Value>&lt;div class="mceNonEditable isCSTTemplate" style="width: 0px; height: 0px; overflow: hidden;"&gt;&amp;nbsp;&lt;/div&gt;
+&lt;p&gt;[&lt;em&gt;Not requested&lt;/em&gt;]&lt;/p&gt;
+&lt;div class="mceNonEditable isCSTTemplate" style="width: 0px; height: 0px; overflow: hidden;"&gt;&amp;nbsp;&lt;/div&gt;</genericmetadata:Value>
+                <genericmetadata:ReportedAttribute conceptID="TIMELINESS">
+                    <genericmetadata:Value>&lt;div class="mceNonEditable isCSTTemplate" style="width: 0px; height: 0px; overflow: hidden;"&gt;&amp;nbsp;&lt;/div&gt;
+&lt;p&gt;[&lt;em&gt;Not requested&lt;/em&gt;, &lt;em&gt;available in the Quality report&lt;/em&gt;]&lt;/p&gt;</genericmetadata:Value>
+                </genericmetadata:ReportedAttribute>
+                <genericmetadata:ReportedAttribute conceptID="PUNCTUALITY">
+                    <genericmetadata:Value>&lt;div class="mceNonEditable isCSTTemplate" style="width: 0px; height: 0px; overflow: hidden;"&gt;&amp;nbsp;&lt;/div&gt;
+&lt;p&gt;[&lt;em&gt;Not requested&lt;/em&gt;, &lt;em&gt;available in the Quality report&lt;/em&gt;]&lt;/p&gt;</genericmetadata:Value>
+                </genericmetadata:ReportedAttribute>
+            </genericmetadata:ReportedAttribute>
+            <genericmetadata:ReportedAttribute conceptID="COMPARABILITY">
+                <genericmetadata:Value>&lt;div class="mceNonEditable isCSTTemplate" style="width: 0px; height: 0px; overflow: hidden;"&gt;&amp;nbsp;&lt;/div&gt;
+&lt;p&gt;-&lt;/p&gt;
+&lt;div class="mceNonEditable isCSTTemplate" style="width: 0px; height: 0px; overflow: hidden;"&gt;&amp;nbsp;&lt;/div&gt;</genericmetadata:Value>
+                <genericmetadata:ReportedAttribute conceptID="COMPAR_GEO">
+                    <genericmetadata:Value>&lt;div class="mceNonEditable isCSTTemplate" style="width: 0px; height: 0px; overflow: hidden;"&gt;&amp;nbsp;&lt;/div&gt;
+&lt;p&gt;[&lt;em&gt;Not requested&lt;/em&gt;, &lt;em&gt;available in the Quality report&lt;/em&gt;]&lt;/p&gt;</genericmetadata:Value>
+                </genericmetadata:ReportedAttribute>
+                <genericmetadata:ReportedAttribute conceptID="COMPAR_TIME">
+                    <genericmetadata:Value>&lt;div class="mceNonEditable isCSTTemplate" style="width: 0px; height: 0px; overflow: hidden;"&gt;&amp;nbsp;&lt;/div&gt;
+&lt;p&gt;Breaks in series&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;Please indicate the break years (years for which data are not fully comparable to the previous period) and nature of the breaks&lt;/em&gt;&lt;/p&gt;
+&lt;table style="width: 100%; border: #000000 1px solid;" cellspacing="0"&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;td class="mceNonEditable" style="border: #000000 1px solid;" width="20%"&gt;&amp;nbsp;&lt;/td&gt;
+&lt;td class="mceNonEditable" style="border: #000000 1px solid;" width="30%"&gt;Break years&lt;/td&gt;
+&lt;td class="mceNonEditable" style="border: #000000 1px solid;" width="50%"&gt;Nature of the breaks (brief description, and if possible, quantitative evaluation of impact on the indicators&amp;rsquo; values)&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td style="border: #000000 1px solid;" width="20%"&gt;Provisional data&lt;/td&gt;
+&lt;td style="background-color: #ffffa0; border: #000000 1px solid;" width="30%"&gt;&amp;nbsp;&lt;/td&gt;
+&lt;td style="background-color: #ffffa0; border: #000000 1px solid;" width="50%"&gt;&amp;nbsp;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style="border: #000000 1px solid;" width="20%"&gt;Final data&lt;/td&gt;
+&lt;td style="background-color: #ffffa0; border: #000000 1px solid;" width="30%"&gt;1981, 1985&lt;/td&gt;
+&lt;td style="background-color: #ffffa0; border: #000000 1px solid;" width="50%"&gt;Changes in methodology resulted in breaks in time series for those years.&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;</genericmetadata:Value>
+                </genericmetadata:ReportedAttribute>
+            </genericmetadata:ReportedAttribute>
+            <genericmetadata:ReportedAttribute conceptID="COHERENCE">
+                <genericmetadata:Value>&lt;div class="mceNonEditable isCSTTemplate" style="width: 0px; height: 0px; overflow: hidden;"&gt;&amp;nbsp;&lt;/div&gt;
+&lt;p&gt;-&lt;/p&gt;
+&lt;div class="mceNonEditable isCSTTemplate" style="width: 0px; height: 0px; overflow: hidden;"&gt;&amp;nbsp;&lt;/div&gt;</genericmetadata:Value>
+                <genericmetadata:ReportedAttribute conceptID="COHER_X_DOM">
+                    <genericmetadata:Value>&lt;div class="mceNonEditable isCSTTemplate" style="width: 0px; height: 0px; overflow: hidden;"&gt;&amp;nbsp;&lt;/div&gt;
+&lt;table style="width: 100%; border: #000000 1px solid;" cellspacing="0"&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;td class="mceNonEditable" style="border: #000000 1px solid;"&gt;Comparability between GBAORD and Government-financed GERD&lt;br /&gt;&lt;em&gt;[&lt;em&gt;Please report comparability issues between GBAORD and GERD data alongside the lines of FM &amp;sect; 520 &amp;ndash; 525&lt;/em&gt;]&lt;/em&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td style="background-color: #ffffa0; border: #000000 1px solid;"&gt;GBAORD includes only Federal government and exclude R&amp;amp;D financed by provincial and local government and by other public sector sources. Furthermore, from 2006 onwards, government-financed GERD includes payments to the BES via the "research premium" which is an instrument of R&amp;amp;D tax incentives, but - according to the Frascati Manual - needs to be treated as direct R&amp;amp;D funding. GBAORD includes contributions of the Federal state to the "independent agencies" funding R&amp;amp;D. This is not necessarily the funds that those institution actually provide for R&amp;amp;D to the R&amp;amp;D performing units (releases from last year, funds might be provided in loans (and are therefore not covered in the R&amp;amp;D survey etc)). GBAORD data includes contributions to transnational R&amp;amp;D performers and programmes, which are not covered in the R&amp;amp;D surveys. R&amp;amp;D surveys cover also government-financing from extra-budgetary sources. Excluding "funding from local and regional governments" and "funding from the research premium" from "GERD financed by the public sector" results in a consistency with "GBOARD minus funds going abroad to international organisations" of approx. 95%.&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;</genericmetadata:Value>
+                </genericmetadata:ReportedAttribute>
+                <genericmetadata:ReportedAttribute conceptID="COHER_INTERNAL">
+                    <genericmetadata:Value>&lt;div class="mceNonEditable isCSTTemplate" style="width: 0px; height: 0px; overflow: hidden;"&gt;&amp;nbsp;&lt;/div&gt;
+&lt;p&gt;[&lt;em&gt;Not requested&lt;/em&gt;, &lt;em&gt;available in the Quality report&lt;/em&gt;]&lt;/p&gt;</genericmetadata:Value>
+                </genericmetadata:ReportedAttribute>
+            </genericmetadata:ReportedAttribute>
+            <genericmetadata:ReportedAttribute conceptID="COST_BURDEN">
+                <genericmetadata:Value>&lt;div class="mceNonEditable isCSTTemplate" style="width: 0px; height: 0px; overflow: hidden;"&gt;&amp;nbsp;&lt;/div&gt;
+&lt;p&gt;[&lt;em&gt;Not requested&lt;/em&gt;, &lt;em&gt;available in the Quality report&lt;/em&gt;]&lt;/p&gt;</genericmetadata:Value>
+            </genericmetadata:ReportedAttribute>
+            <genericmetadata:ReportedAttribute conceptID="DATA_REV">
+                <genericmetadata:Value>&lt;div class="mceNonEditable isCSTTemplate" style="width: 0px; height: 0px; overflow: hidden;"&gt;&amp;nbsp;&lt;/div&gt;
+&lt;p&gt;[&lt;em&gt;Not requested&lt;/em&gt;]&lt;/p&gt;</genericmetadata:Value>
+                <genericmetadata:ReportedAttribute conceptID="REV_POLICY">
+                    <genericmetadata:Value>&lt;div class="mceNonEditable isCSTTemplate" style="width: 0px; height: 0px; overflow: hidden;"&gt;&amp;nbsp;&lt;/div&gt;
+&lt;p&gt;[&lt;em&gt;Not requested&lt;/em&gt;]&lt;/p&gt;</genericmetadata:Value>
+                </genericmetadata:ReportedAttribute>
+                <genericmetadata:ReportedAttribute conceptID="REV_PRACTICE">
+                    <genericmetadata:Value>&lt;div class="mceNonEditable isCSTTemplate" style="width: 0px; height: 0px; overflow: hidden;"&gt;&amp;nbsp;&lt;/div&gt;
+&lt;p&gt;Final data are subject to revision even after t+12, when information from the two-yearly R&amp;amp;D surveys are taken into account to determine the R&amp;amp;D content of&amp;nbsp;payments from government to certain institutions for which results of "R&amp;amp;D funding by the federal government" become available. The coefficients used for determining the "R&amp;amp;D content" of some budget lines are then revised. The consequence can be slight changes in total GBAORD even later than 12 months after the end of the calendar year.&lt;/p&gt;</genericmetadata:Value>
+                </genericmetadata:ReportedAttribute>
+            </genericmetadata:ReportedAttribute>
+            <genericmetadata:ReportedAttribute conceptID="STAT_PROCESS">
+                <genericmetadata:Value>&lt;div class="mceNonEditable isCSTTemplate" style="width: 0px; height: 0px; overflow: hidden;"&gt;&amp;nbsp;&lt;/div&gt;
+&lt;p&gt;-&lt;/p&gt;</genericmetadata:Value>
+                <genericmetadata:ReportedAttribute conceptID="SOURCE_TYPE">
+                    <genericmetadata:Value>&lt;div class="mceNonEditable isCSTTemplate" style="width: 0px; height: 0px; overflow: hidden;"&gt;&amp;nbsp;&lt;/div&gt;
+&lt;p&gt;&lt;strong&gt;20.1.1. General Information&lt;/strong&gt;&lt;/p&gt;
+&lt;table style="width: 100%; border: #000000 1px solid;" cellspacing="0"&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;td class="mceNonEditable" style="border: #000000 1px solid;" width="10%"&gt;&amp;nbsp;&lt;/td&gt;
+&lt;td class="mceNonEditable" style="border: #000000 1px solid;" width="30%"&gt;Provisional data&lt;/td&gt;
+&lt;td class="mceNonEditable" style="border: #000000 1px solid;" width="30%"&gt;Final data&lt;/td&gt;
+&lt;td class="mceNonEditable" style="border: #000000 1px solid;" width="30%"&gt;Comments&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td style="border: #000000 1px solid;" width="10%"&gt;Data sources&lt;/td&gt;
+&lt;td style="background-color: #ffffa0; border: #000000 1px solid;" width="30%"&gt;Federal R&amp;amp;D budget (buget appropriations)&lt;/td&gt;
+&lt;td style="background-color: #ffffa0; border: #000000 1px solid;" width="30%"&gt;Federal R&amp;amp;D budget (actual outlays in the final fiscal balance sheet) and Federal Ministry of Finance and other Ministries financing R&amp;amp;D activities&lt;/td&gt;
+&lt;td style="background-color: #ffffa0; border: #000000 1px solid;" width="30%"&gt;&amp;nbsp;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;p&gt;&amp;nbsp;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;20.1.2. General University Funds (GUF)&lt;/strong&gt;&lt;/p&gt;
+&lt;table style="width: 100%; border: #000000 1px solid;" cellspacing="0"&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;td class="mceNonEditable" style="border: #000000 1px solid;"&gt;Data sources&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td style="background-color: #ffffa0; border: #000000 1px solid;"&gt;Same as for GBAORD data: Annex T of the Federal Fiscal Act&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;</genericmetadata:Value>
+                </genericmetadata:ReportedAttribute>
+                <genericmetadata:ReportedAttribute conceptID="FREQ_COLL">
+                    <genericmetadata:Value>&lt;div class="mceNonEditable isCSTTemplate" style="width: 0px; height: 0px; overflow: hidden;"&gt;&amp;nbsp;&lt;/div&gt;
+&lt;p&gt;[&lt;em&gt;Please see 13.3.1; 13.3.2 and 13.3.3 above&lt;/em&gt;]&lt;/p&gt;
+&lt;div class="mceNonEditable isCSTTemplate" style="width: 0px; height: 0px; overflow: hidden;"&gt;&amp;nbsp;&lt;/div&gt;</genericmetadata:Value>
+                </genericmetadata:ReportedAttribute>
+                <genericmetadata:ReportedAttribute conceptID="COLL_METHOD">
+                    <genericmetadata:Value>&lt;div class="mceNonEditable isCSTTemplate" style="width: 0px; height: 0px; overflow: hidden;"&gt;&amp;nbsp;&lt;/div&gt;
+&lt;p&gt;&lt;strong&gt;20.3.1. Data collection&lt;/strong&gt;&lt;/p&gt;
+&lt;table style="width: 100%; border: #000000 1px solid;" cellspacing="0"&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;td class="mceNonEditable" style="border: #000000 1px solid;" width="10%"&gt;&amp;nbsp;&lt;/td&gt;
+&lt;td class="mceNonEditable" style="border: #000000 1px solid;" width="30%"&gt;Provisional data&lt;/td&gt;
+&lt;td class="mceNonEditable" style="border: #000000 1px solid;" width="30%"&gt;Final data&lt;/td&gt;
+&lt;td class="mceNonEditable" style="border: #000000 1px solid;" width="30%"&gt;Comments&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td style="border: #000000 1px solid;" width="10%"&gt;Data collection method &lt;br /&gt;[&lt;em&gt;budget text analysis, survey, both?&lt;/em&gt;]&lt;/td&gt;
+&lt;td style="background-color: #ffffa0; border: #000000 1px solid;" width="30%"&gt;Both text analysis and survey&lt;/td&gt;
+&lt;td style="background-color: #ffffa0; border: #000000 1px solid;" width="30%"&gt;Both text analysis and survey&lt;/td&gt;
+&lt;td style="background-color: #ffffa0; border: #000000 1px solid;" width="30%"&gt;Text analysis of the Federal R&amp;amp;D budget + annual up-dating and checking procedure covering the Federal Ministry of Finance and other Ministries financing R&amp;amp;D activities by direct telephone, e-mail or fax contacts. After every full national performer-based R&amp;amp;D survey a complete up-dating survey (&amp;ldquo;Grosse Revision&amp;rdquo;) is conducted covering all Federal Ministries. The systematic analysis of the Federal budget leads to the identification of all budget chapters, budget items, budget sub-items and budget posts which are of relevance for financing of R&amp;amp;D activities. The R&amp;amp;D coefficients applied to the individual budget items&amp;nbsp;originate from the most recent results of the national performer-based R&amp;amp;D surveys or, if such information is not available, the R&amp;amp;D percentages applied are obtained directly from the institutional units within the Federal Ministries responsible for funding and/or administering the respective R&amp;amp;D activities. All the R&amp;amp;D coefficients in the Federal R&amp;amp;D Budget are checked and up-dated annually under the auspices of Statistics Austria and, after every full national performer-based R&amp;amp;D survey, a complete exhaustive up-dating survey is conducted by Statistics Austria covering all Federal Ministries.&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style="border: #000000 1px solid;" width="10%"&gt;Reporting units &lt;br /&gt;[&lt;em&gt;Please specify the institutions and whether they are those institution funding/administering, institution or those performing R&amp;amp;D&lt;/em&gt;]&lt;/td&gt;
+&lt;td style="background-color: #ffffa0; border: #000000 1px solid;" width="30%"&gt;the institutional units funding and/or administering R&amp;amp;D activities within the Federal Ministries&lt;/td&gt;
+&lt;td style="background-color: #ffffa0; border: #000000 1px solid;" width="30%"&gt;the institutional units funding and/or administering R&amp;amp;D activities within the Federal Ministries&lt;/td&gt;
+&lt;td style="background-color: #ffffa0; border: #000000 1px solid;" width="30%"&gt;The final sources of information (&amp;ldquo;reporting units&amp;rdquo;) are the institutional units funding and/or administering R&amp;amp;D activities within the Federal Ministries. Their information are reported &amp;ndash; usually after consultations with Statistics Austria &amp;ndash; to the Federal Ministry of Finance. The whole procedure is coordinated by Statistics Austria, whose primary role is to guarantee the Frascati Manual conformity. The statistical unit for the budgetary analysis performed is the budget chapter or budget item or budget sub-item or budget post, which depends on the individual data situation.&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style="border: #000000 1px solid;" width="10%"&gt;Basic variable (appropriations or outlays?) &lt;br /&gt;[&lt;em&gt;please be as specific as possible&lt;/em&gt;]&lt;/td&gt;
+&lt;td style="background-color: #ffffa0; border: #000000 1px solid;" width="30%"&gt;Initial budget appropriations for the current and the last year (reported at the beginning of the second quarter of the current year): &amp;ldquo;Bundesvoranschlag&amp;rdquo;&lt;/td&gt;
+&lt;td style="background-color: #ffffa0; border: #000000 1px solid;" width="30%"&gt;Actual or final outlays for the previous years: &amp;ldquo;Erfolg&amp;rdquo;/&amp;rdquo;Rechnungsabschluss des Bundes&amp;rdquo; .&lt;/td&gt;
+&lt;td style="background-color: #ffffa0; border: #000000 1px solid;" width="30%"&gt;&amp;nbsp;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style="border: #000000 1px solid;" width="10%"&gt;Stage of data collection &lt;br /&gt;[&lt;em&gt;FM &amp;sect; 478-479&lt;/em&gt;]&lt;/td&gt;
+&lt;td style="background-color: #ffffa0; border: #000000 1px solid;" width="30%"&gt;Initial budget appropriations (figures as voted by the parliament for the coming year, including changes introduced in the parliamentary debate) are used.&lt;/td&gt;
+&lt;td style="background-color: #ffffa0; border: #000000 1px solid;" width="30%"&gt;Actual outlays (money paid out during the year) are used.&lt;/td&gt;
+&lt;td style="background-color: #ffffa0; border: #000000 1px solid;" width="30%"&gt;&amp;nbsp;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style="border: #000000 1px solid;" width="10%"&gt;Time of data collection (T+x) &lt;br /&gt;[&lt;em&gt;T is assumed to represent the end of reference period. x expresses the number of months after (positive) or before (negative) T when data is collected.&lt;/em&gt;]&lt;/td&gt;
+&lt;td style="background-color: #ffffa0; border: #000000 1px solid;" width="30%"&gt;t-9: Initial budget appropriations for the coming year are usually available in December of the preceding year and can (usually) be reported to EUROSTAT and OECD, after detailed analysis by Statistics Austria, at the beginning of the second quarter. Deviations can occur when due to the policital situation&amp;nbsp;no budget appropiation altogether (not just for R&amp;amp;D) is available due to&amp;nbsp;delays in the political process (after general elections&amp;nbsp;when&amp;nbsp;a federal budget&amp;nbsp;is often adopted later than usual)&amp;nbsp;&lt;/td&gt;
+&lt;td style="background-color: #ffffa0; border: #000000 1px solid;" width="30%"&gt;t+12: Final outlays for the calendar year x are usually available at the same time as initial budget appropriations for calendar year x + 2 years.&lt;/td&gt;
+&lt;td style="background-color: #ffffa0; border: #000000 1px solid;" width="30%"&gt;&amp;nbsp;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;p&gt;&amp;nbsp;&lt;/p&gt;
+&lt;table style="width: 100%; border: #000000 1px solid;" cellspacing="0"&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;td class="mceNonEditable" style="border: #000000 1px solid;"&gt;Problems in the translation of budget items&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td style="background-color: #ffffa0; border: #000000 1px solid;"&gt;No problems.&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;p&gt;&amp;nbsp;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;20.3.2. General University Funds (GUF)&lt;/strong&gt;&lt;/p&gt;
+&lt;table style="width: 100%; border: #000000 1px solid;" cellspacing="0"&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;td class="mceNonEditable" style="border: #000000 1px solid;"&gt;Data collection method&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td style="background-color: #ffffa0; border: #000000 1px solid;"&gt;Budget analysis.&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;p&gt;&amp;nbsp;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;20.3.3. Distribution by socio-economic objectives (SEO)&lt;/strong&gt;&lt;br /&gt;&lt;em&gt;Two approaches to distribution are basically used for the collection of GBAORD by socio-economic objective. Please indicate which one (purpose, content or any other possible approach) is applied. Indicate level (institutional or project) at which distribution takes place.&lt;/em&gt;&lt;/p&gt;
+&lt;table style="width: 100%; border: #000000 1px solid;" cellspacing="0"&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;td class="mceNonEditable" style="border: #000000 1px solid;"&gt;Level of distribution of budgetary items &amp;ndash; institution or programme/project&lt;br /&gt;&lt;em&gt;[FM &amp;sect; 501]&lt;/em&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td style="background-color: #ffffa0; border: #000000 1px solid;"&gt;The classification or distribution by socio-economic objectives is done on the basis of the statistical units selected, which are &amp;ndash; within the framework of the GBAORD budgetary analysis &amp;ndash; budget chapters, budget items, budget sub-items or budget posts. These units represent eihter institutional units but sometimes also programmes or an aggregation of projects.&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;p&gt;&amp;nbsp;&lt;/p&gt;
+&lt;table style="width: 100%; border: #000000 1px solid;" cellspacing="0"&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;td class="mceNonEditable" style="border: #000000 1px solid;"&gt;Criterion of distribution &amp;ndash; purpose or content&lt;br /&gt;&lt;em&gt;[FM &amp;sect; 497-498]&lt;/em&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td style="background-color: #ffffa0; border: #000000 1px solid;"&gt;Purpose.&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;p&gt;&amp;nbsp;&lt;/p&gt;
+&lt;table style="width: 100%; border: #000000 1px solid;" cellspacing="0"&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;td class="mceNonEditable" style="border: #000000 1px solid;"&gt;Method of identification of primary objectives&lt;br /&gt;&lt;em&gt;[FM &amp;sect; 500]&lt;/em&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td style="background-color: #ffffa0; border: #000000 1px solid;"&gt;&amp;nbsp;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;p&gt;&amp;nbsp;&lt;/p&gt;
+&lt;table style="width: 100%; border: #000000 1px solid;" cellspacing="0"&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;td class="mceNonEditable" style="border: #000000 1px solid;"&gt;Difficulties of distribution&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td style="background-color: #ffffa0; border: #000000 1px solid;"&gt;As Austrian GBOARD data are a result of a budgetary analysis, the main problem lies in the structure of the Federal Budget&amp;nbsp;and which is reflected in budget chapters and budget items representing in most cases institutional units and generally not programmes or projects. Therefore, we see no possibility to apply NABS (which is, in principle, a classification-list for classifying or distributing programmes or projects) at a level below the chapter&amp;ndash; or 1-digit-level.&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;p&gt;&amp;nbsp;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;20.3.4. GBAORD questionnaire&lt;/strong&gt;&lt;br /&gt;&lt;br /&gt;&lt;/p&gt;
+&lt;table style="width: 100%; border: #000000 1px solid;" cellspacing="0"&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;td class="mceNonEditable" style="border: #000000 1px solid;"&gt;Please provide the GBAORD questionnaire in Annex&lt;em&gt;, using the "Annexes" button below, and write here the name of the annexed file&lt;/em&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td style="background-color: #ffffa0; border: #000000 1px solid;"&gt;Beilage_T_2011_endg.pdf&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;p&gt;&lt;em&gt;&amp;nbsp;&lt;/em&gt;&lt;/p&gt;</genericmetadata:Value>
+                </genericmetadata:ReportedAttribute>
+                <genericmetadata:ReportedAttribute conceptID="DATA_VALIDATION">
+                    <genericmetadata:Value>&lt;div class="mceNonEditable isCSTTemplate" style="width: 0px; height: 0px; overflow: hidden;"&gt;&amp;nbsp;&lt;/div&gt;
+&lt;p&gt;[&lt;em&gt;Not requested&lt;/em&gt;]&lt;/p&gt;</genericmetadata:Value>
+                </genericmetadata:ReportedAttribute>
+                <genericmetadata:ReportedAttribute conceptID="DATA_COMP">
+                    <genericmetadata:Value>&lt;div class="mceNonEditable isCSTTemplate" style="width: 0px; height: 0px; overflow: hidden;"&gt;&amp;nbsp;&lt;/div&gt;
+&lt;p&gt;&lt;strong&gt;20.5.1. Identifying R&amp;amp;D&lt;/strong&gt;&lt;/p&gt;
+&lt;table style="width: 100%; border: #000000 1px solid;" cellspacing="0"&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;td class="mceNonEditable" style="border: #000000 1px solid;"&gt;Method(s) of separating R&amp;amp;D from non-R&amp;amp;D (coefficients, etc.)&lt;br /&gt;&lt;em&gt;Please report the value of coefficients, if applicable.&lt;/em&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td style="background-color: #ffffa0; border: #000000 1px solid;"&gt;Annex T of the Federal Fiscal Act (Federal Research Budget) lists all expenditure of the Federal Ministries with R&amp;amp;D relevance. Coefficients are used to estimate the percentage of "R&amp;amp;D content" of the item.&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;p&gt;&amp;nbsp;&lt;/p&gt;
+&lt;table style="width: 100%; border: #000000 1px solid;" cellspacing="0"&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;td class="mceNonEditable" style="border: #000000 1px solid;"&gt;Coefficient estimation method (if applicable)&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td style="background-color: #ffffa0; border: #000000 1px solid;"&gt;An &amp;ldquo;R&amp;amp;D coefficient&amp;rdquo; is used for each budget item, which can be between 1% and 100%. According to this coefficient, R&amp;amp;D outlays of the various institutions/programmes are calculated as a percentage of total expenditure for the respective budget item. In case institutions are statistical units in R&amp;amp;D surveys, these coefficients are derived from the most recent R&amp;amp;D survey, indicating the percentage of all federal expenditure for this institution that are funded by the (federal) government and which are used for R&amp;amp;D. Coefficients are calculated on an individual base so that each budget item receives a different coefficient.&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;p&gt;&amp;nbsp;&lt;/p&gt;
+&lt;table style="width: 100%; border: #000000 1px solid;" cellspacing="0"&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;td class="mceNonEditable" style="border: #000000 1px solid;"&gt;Frequency of updating of coefficients&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td style="background-color: #ffffa0; border: #000000 1px solid;"&gt;Every two years for those institutions that are statistical units in the biennial performer-based R&amp;amp;D survey.&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;p&gt;&amp;nbsp;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;20.5.2. General University Funds (GUF)&lt;/strong&gt;&lt;/p&gt;
+&lt;table style="width: 100%; border: #000000 1px solid;" cellspacing="0"&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;td class="mceNonEditable" style="border: #000000 1px solid;"&gt;Method(s) of distinction (coefficients, etc.) between R&amp;amp;D and non-R&amp;amp;D&lt;br /&gt;&lt;em&gt;Please report the value of coefficients, if applicable.&lt;/em&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td style="background-color: #ffffa0; border: #000000 1px solid;"&gt;An &amp;ldquo;R&amp;amp;D coefficient&amp;rdquo; is used for each GUF-relevant budget item. According to this coefficient, R&amp;amp;D outlays of the various institutions/programmes are calculated as a percentage of total expenditure for the respective budget item. In case institutions are statistical units in R&amp;amp;D surveys, these coefficients are derived from the most recent R&amp;amp;D survey, indicating the percentage of all federal expenditure for this institution that are funded by the (federal) government and which are used for R&amp;amp;D. Coefficients are calculated on an individual base so that each budget item receives a different coefficient.&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;p&gt;&amp;nbsp;&lt;/p&gt;
+&lt;table style="width: 100%; border: #000000 1px solid;" cellspacing="0"&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;td class="mceNonEditable" style="border: #000000 1px solid;"&gt;Coefficient estimation method (if applicable)&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td style="background-color: #ffffa0; border: #000000 1px solid;"&gt;An &amp;ldquo;R&amp;amp;D coefficient&amp;rdquo; is used for each GUF-relevant budget item. According to this coefficient, R&amp;amp;D outlays of the various institutions/programmes are calculated as a percentage of total expenditure for the respective budget item. In case institutions are statistical units in R&amp;amp;D surveys, these coefficients are derived from the most recent R&amp;amp;D survey, indicating the percentage of all federal expenditure for this institution that are funded by the (federal) government and which are used for R&amp;amp;D. Coefficients are calculated on an individual base so that each budget item receives a different coefficient.&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;p&gt;&amp;nbsp;&lt;/p&gt;
+&lt;table style="width: 100%; border: #000000 1px solid;" cellspacing="0"&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;td class="mceNonEditable" style="border: #000000 1px solid;"&gt;Frequency of updating of coefficients&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td style="background-color: #ffffa0; border: #000000 1px solid;"&gt;Every two years.&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;p&gt;&amp;nbsp;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;20.5.3. Other issues&lt;/strong&gt;&lt;/p&gt;
+&lt;table style="width: 100%; border: #000000 1px solid;" cellspacing="0"&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;td class="mceNonEditable" style="border: #000000 1px solid;"&gt;Treatment of multi-annual programmes&lt;br /&gt;&lt;em&gt;FM &amp;sect; 495. Reported in a single year? If broken down, allocated to budgeted year or year of authorization?&lt;/em&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td style="background-color: #ffffa0; border: #000000 1px solid;"&gt;In these rare occurrences, the annual portions of the multi-annual programmes were allocated to the years for which the expenditure was planned.&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;p&gt;&amp;nbsp;&lt;/p&gt;
+&lt;table style="width: 100%; border: #000000 1px solid;" cellspacing="0"&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;td class="mceNonEditable" style="border: #000000 1px solid;"&gt;Possibility to classify budgetary items by COFOG functions&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td style="background-color: #ffffa0; border: #000000 1px solid;"&gt;No possibility.&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;p&gt;&amp;nbsp;&lt;/p&gt;
+&lt;table style="width: 100%; border: #000000 1px solid;" cellspacing="0"&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;td class="mceNonEditable" style="border: #000000 1px solid;"&gt;Possibility to classify budgetary items by other nomenclatures&lt;br /&gt;&lt;em&gt;e.g. NACE&lt;/em&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td style="background-color: #ffffa0; border: #000000 1px solid;"&gt;No possibility.&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;p&gt;&amp;nbsp;&lt;/p&gt;
+&lt;table style="width: 100%; border: #000000 1px solid;" cellspacing="0"&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;td class="mceNonEditable" style="border: #000000 1px solid;"&gt;Method of estimation of future budgets&lt;br /&gt;&lt;em&gt;Are assumptions made on prices or growth rates, and which?&lt;/em&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td style="background-color: #ffffa0; border: #000000 1px solid;"&gt;Future estimations are at current prices.&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;</genericmetadata:Value>
+                </genericmetadata:ReportedAttribute>
+                <genericmetadata:ReportedAttribute conceptID="ADJUSTMENT">
+                    <genericmetadata:Value>&lt;div class="mceNonEditable isCSTTemplate" style="width: 0px; height: 0px; overflow: hidden;"&gt;&amp;nbsp;&lt;/div&gt;
+&lt;p&gt;[&lt;em&gt;Not requested&lt;/em&gt;]&lt;/p&gt;
+&lt;div class="mceNonEditable isCSTTemplate" style="width: 0px; height: 0px; overflow: hidden;"&gt;&amp;nbsp;&lt;/div&gt;</genericmetadata:Value>
+                </genericmetadata:ReportedAttribute>
+            </genericmetadata:ReportedAttribute>
+            <genericmetadata:ReportedAttribute conceptID="COMMENT_DSET">
+                <genericmetadata:Value>&lt;div class="mceNonEditable isCSTTemplate" style="width: 0px; height: 0px; overflow: hidden;"&gt;&amp;nbsp;&lt;/div&gt;
+&lt;table style="width: 100%; border: #000000 1px solid;" cellspacing="0"&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;td class="mceNonEditable" style="border: #000000 1px solid;"&gt;Additional information&lt;br /&gt;&lt;em&gt;Please provide here information on any additional relevant national specificities.&lt;/em&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td style="background-color: #ffffa0; border: #000000 1px solid;"&gt;N/A&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;</genericmetadata:Value>
+            </genericmetadata:ReportedAttribute>
+        </genericmetadata:AttributeValueSet>
+        <genericmetadata:Annotations>
+            <common:Annotation>
+                <common:AnnotationType>FILE</common:AnnotationType>
+                <common:AnnotationTitle>Annex 2011 - eng</common:AnnotationTitle>
+                <common:AnnotationText>Annexes/RD_ESMSGB_A_AT_2012_0000_an1.pdf</common:AnnotationText>
+            </common:Annotation>
+            <common:Annotation>
+                <common:AnnotationType>FILE</common:AnnotationType>
+                <common:AnnotationTitle>National nomenclature 2007</common:AnnotationTitle>
+                <common:AnnotationText>Annexes/RD_ESMSGB_A_AT_2012_0000_an2.pdf</common:AnnotationText>
+            </common:Annotation>
+        </genericmetadata:Annotations>
+    </genericmetadata:MetadataSet>
+</GenericMetadata>
